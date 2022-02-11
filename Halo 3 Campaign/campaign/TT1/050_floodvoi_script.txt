@@ -1,0 +1,5 @@
+openacchefile "../H3Maps/050_floodvoi.map"
+porttag *.scnr
+savetagnames
+exit
+updatemapfilesalt "../H3Maps/info"
