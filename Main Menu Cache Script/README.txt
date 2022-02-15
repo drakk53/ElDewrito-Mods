@@ -12,6 +12,8 @@ Some issues that you may encounter when using this cache include:
 
 - Broken 0.6 Forge
 
+- Broken Campaign Porting (maps do load, but have multiple issues including, invisble bipeds, and general scripting issues)
+
 
 HOW TO SETUP THE SCRIPT:
 
