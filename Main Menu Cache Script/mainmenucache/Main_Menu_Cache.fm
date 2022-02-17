@@ -1,12 +1,14 @@
 ECHO FMM_OUTPUT Initializng Main Menu Cache Script....
 
-cd mods/tagmods/mainmenucache/TT1
+cd mods/tagmods/mainmenucache/TT3
 
 ECHO FMM_OUTPUT Removing Unused Tags....
 
 Type main_menu_cache_script_1.txt | TagTool.exe ../../../../maps/tags.dat
 
 ECHO FMM_OUTPUT Done!
+
+cd ../TT1
 
 ECHO FMM_OUTPUT Rebuilding Cache....
 
