@@ -1,4 +1,4 @@
-nametag 0x27AE globals\global_shield_impact_settings
-savetagnames
-rebuildcachefiles "../MM"
-quit
+opencachefile "../H3Maps/mainmenu.map"
+porttag *.scnr
+exit
+updatemapfilesalt "../H3Maps/info"
