@@ -8,4 +8,9 @@ setfield globaltags[1].instance multiplayer\forge_globals.forg
 setfield globaltags[2].instance globals\ui.gfxt
 savetagchanges
 exit
+edittag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
+addblockelements hudinterfaces 2
+setfield hudinterfaces[0].unithudinterface ui\chud\spartan.chud_definition
+savetagchanges
+exit
 
