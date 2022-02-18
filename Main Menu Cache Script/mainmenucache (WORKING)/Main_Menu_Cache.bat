@@ -1,18 +1,10 @@
 ECHO Initializng Main Menu Cache Script....
 
-ECHO Removing Unused Tags....
-
-cd TT3
-
-Type main_menu_cache_script_1.txt | TagTool.exe ../ED/tags.dat
-
-ECHO Done!
-
 ECHO Rebuilding Cache....
 
-cd ../TT1
+cd TT1
 
-Type main_menu_cache_script_2.txt | TagTool.exe ../ED/tags.dat
+Type main_menu_cache_script_1.txt | TagTool.exe ../ED/tags.dat
 
 ECHO Cache Rebuilt!
 
@@ -38,9 +30,9 @@ ECHO Porting Main Menu....
 
 cd ../../TT1
 
-Type main_menu_cache_script_3.txt | TagTool.exe ../MM/tags.dat
+Type main_menu_cache_script_2.txt | TagTool.exe ../MM/tags.dat
 
-Type main_menu_cache_script_4.txt | TagTool.exe ../MM/tags.dat
+Type main_menu_cache_script_3.txt | TagTool.exe ../MM/tags.dat
 
 ECHO Done!
 

@@ -7,3 +7,19 @@ savetagnames
 createtag chdt
 nametag "" ui\chud\spartan
 savetagnames
+
+deletetag globals\elite_3p_shield_impact.shield_impact
+deletetag globals\elite_fp_shield_impact.shield_impact
+deletetag globals\masterchief_fp_shield_impact.shield_impact
+deletetag levels\shared\bitmaps\test_maps\cloud_1.bitmap
+deletetag levels\shared\bitmaps\test_maps\cloud_2.bitmap
+deletetag objects\vehicles\banshee\garbage\cab_garbage\cab_garbage.render_model
+deletetag objects\vehicles\banshee\garbage\fin_bottom_garbage\fin_bottom_garbage.render_model
+deletetag objects\vehicles\banshee\garbage\fin_top_garbage\fin_top_garbage.render_model
+deletetag objects\vehicles\banshee\garbage\l_wing_garbage\l_wing_garbage.render_model
+deletetag objects\vehicles\banshee\garbage\r_wing_garbage\r_wing_garbage.render_model
+deletetag objects\vehicles\banshee\garbage\wing_prong_garbage\wing_prong_garbage.render_model
+deletetag objects\vehicles\lod\lod_banshee\lod_banshee.render_model
+deletetag objects\vehicles\lod\lod_hornet\lod_hornet.render_model
+
+porttag shaders\default_bitmaps\bitmaps\color_black_alpha_black.bitmap
