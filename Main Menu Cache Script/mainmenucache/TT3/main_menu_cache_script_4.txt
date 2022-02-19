@@ -1,0 +1,6 @@
+createtag forg 
+nametag 0x1901 multiplayer\forge_globals
+savetagnames
+createtag gfxt
+nametag 0x1902 globals\ui
+savetagnames

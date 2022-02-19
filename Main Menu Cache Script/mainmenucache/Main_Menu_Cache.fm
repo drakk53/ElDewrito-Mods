@@ -1,0 +1,49 @@
+ECHO FMM_OUTPUT Initializng Main Menu Cache Script....
+
+cd mods/tagmods/mainmenucache/TT3
+
+ECHO FMM_OUTPUT Removing Unused Tags....
+
+Type main_menu_cache_script_1.txt | TagTool.exe ../../../../maps/tags.dat
+
+ECHO FMM_OUTPUT Done!
+
+cd ../TT1
+
+ECHO FMM_OUTPUT Rebuilding Cache....
+
+Type main_menu_cache_script_2.txt | TagTool.exe ../../../../maps/tags.dat
+
+ECHO FMM_OUTPUT Cache Rebuilt!
+
+ECHO FMM_OUTPUT Copying Map Files....
+
+cd ../../../../maps/
+
+COPY mainmenu.map "../mods/tagmods/mainmenucache/MM"
+
+COPY guardian.map "../mods/tagmods/mainmenucache/MM"
+
+cd ../mods/tagmods/mainmenucache/MM
+
+mkdir fonts
+
+cd ../../../../maps/fonts
+
+COPY font_package.bin "../../mods/tagmods/mainmenucache/MM/fonts"
+
+ECHO FMM_OUTPUT Done!
+
+ECHO FMM_OUTPUT Porting Main Menu....
+
+cd ../../mods/tagmods/mainmenucache/TT1
+
+Type main_menu_cache_script_3.txt | TagTool.exe ../MM/tags.dat
+
+ECHO FMM_OUTPUT Done!
+
+ECHO FMM_OUTPUT Applying Patches....
+
+ECHO FMM_OUTPUT Done!
+ 
+ECHO FMM_OUTPUT Main Menu Cache Generated at "mods\tagmods\mainmenucache\MM"
