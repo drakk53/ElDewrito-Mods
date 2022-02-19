@@ -1,9 +1,0 @@
-createtag forg 
-nametag "" multiplayer\forge_globals
-savetagnames
-createtag gfxt
-nametag "" globals\ui
-savetagnames
-createtag chdt
-nametag "" ui\chud\spartan
-savetagnames
