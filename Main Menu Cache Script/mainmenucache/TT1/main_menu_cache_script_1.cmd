@@ -1,3 +1,30 @@
+nametag 0x020C fx\material_effects\materials\tough\inorganic_rubber
+nametag 0x020E fx\material_effects\materials\tough\inorganic_rubber_hum_tire_mongoose
+nametag 0x020F fx\material_effects\materials\tough\inorganic_plastic
+nametag 0x0214 fx\material_effects\materials\tough\organic_wood
+nametag 0x0225 fx\material_effects\materials\hard\terrain_stone
+nametag 0x022A fx\material_effects\materials\hard\metal_thin
+nametag 0x0230 fx\material_effects\materials\hard\metal_thin_cov_elite
+nametag 0x0234 fx\material_effects\materials\hard\metal_thick
+nametag 0x0235 fx\material_effects\materials\hard\hard_metal_thick_hum_scorpion_tread
+nametag 0x0236 fx\material_effects\materials\hard\metal_thick_cov
+nametag 0x023C fx\material_effects\materials\hard\metal_thick_for_sentinel
+nametag 0x0240 fx\material_effects\materials\hard\metal_solid
+nametag 0x0244 fx\material_effects\materials\hard\terrain_concrete
+nametag 0x024E fx\material_effects\materials\brittle\glass
+nametag 0x025A fx\material_effects\materials\tough\inorganic_rubber_hum_tire_mongoose
+nametag 0x025E fx\material_effects\materials\hard\hard_metal_thick_cov_chopper_wheel
+nametag 0x0263 fx\material_effects\materials\hard\metal_thick_hum_hollow_med
+nametag 0x0265 fx\material_effects\objects\havok\blitzcan
+nametag 0x0269 fx\material_effects\materials\hard\metal_thin_hum_obj_rattly
+nametag 0x026D fx\material_effects\materials\hard\metal_thick_hum_hollow_huge
+nametag 0x0271 fx\material_effects\materials\soft\soft_inorganic_cardboard
+nametag 0x0274 fx\material_effects\objects\havok\hubcap
+nametag 0x0282 fx\material_effects\materials\soft\soft_organic_plant_bushy_dynamic
+nametag 0x0284 fx\material_effects\materials\soft\soft_organic_plant_leafy_dynamic
+nametag 0x0286 fx\material_effects\materials\tough\tough_organic_wood_sapling_dynamic
+nametag 0x0289 fx\material_effects\materials\tough\tough_organic_wood_tree_dynamic
+nametag 0x028C fx\material_effects\materials\tough\inorganic_rubber
 nametag 0x02A1 fx\physics_templates\sparks
 nametag 0x02A3 fx\physics_templates\explosion_fireball
 nametag 0x02AA shaders\particle_options\global_particle_options
@@ -911,31 +938,6 @@ nametag 0x56AF shaders\particle_templates\_3_3_0_0_1_1_1_0_0_1
 nametag 0x56B0 shaders\particle_templates\_3_3_0_0_1_1_1_0_0_1
 nametag 0x5726 ui\chud\multiplayer_intro\summary_assault
 nametag 0x5727 ui\chud\multiplayer_intro\summary_ctf
-nametag 0x020C fx\material_effects\materials\tough\inorganic_rubber
-nametag 0x020E fx\material_effects\materials\tough\inorganic_rubber_hum_tire_mongoose
-nametag 0x020F fx\material_effects\materials\tough\inorganic_plastic
-nametag 0x0214 fx\material_effects\materials\tough\organic_wood
-nametag 
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-nametag
-
 deletetag 0x4458 
 deletetag 0x44DE
 deletetag 0x457A 
