@@ -1,5 +1,6 @@
 nametag 0x02A1 fx\physics_templates\sparks
 nametag 0x02A3 fx\physics_templates\explosion_fireball
+nametag 0x02AA shaders\particle_options\global_particle_options
 nametag 0x02AB shaders\particle_options\albedo_diffuse_only
 nametag 0x02AC shaders\particle_options\albedo_diffuse_plus_billboard_alpha
 nametag 0x02AD shaders\particle_options\albedo_palettized
@@ -160,6 +161,7 @@ nametag 0x16A1 shaders\shader_templates\_10_3_0_1_1_2_9_0_0_1_0
 nametag 0x16A2 shaders\shader_templates\_10_3_0_1_1_2_9_0_0_1_0
 nametag 0x18BF shaders\screen_templates\_2_0_4_1_0
 nametag 0x18C0 shaders\screen_templates\_2_0_4_1_0
+nametag 0x18C1 shaders\screen_options\global_screen_options
 nametag 0x18C2 shaders\screen_options\warp_simple
 nametag 0x18C3 shaders\screen_options\base_single
 nametag 0x18C4 shaders\screen_options\overlay_tint_add_color
@@ -168,6 +170,7 @@ nametag 0x18C6 shaders\screen_options\detail_mask_a
 nametag 0x18C7 shaders\screen_options\blend
 nametag 0x18C8 shaders\screen_shared_pixel_shaders
 nametag 0x18C9 shaders\screen_shared_vertex_shaders
+nametag 0x18CF shaders\beam_options\global_beam_options
 nametag 0x18F0 shaders\contrail_templates\_0_8_1_0
 nametag 0x18F1 shaders\contrail_templates\_0_8_1_0
 nametag 0x18F3 shaders\particle_templates\_1_3_0_2_0_1_1_1_1_0
@@ -628,6 +631,7 @@ nametag 0x3580 levels\multi\riverworld\bitmaps\riverworld_water_multipurpose
 nametag 0x3581 levels\multi\riverworld\bitmaps\riverworld_water_foam_dif
 nametag 0x3583 shaders\water_templates\_0_1_1_1_1_0_1_3
 nametag 0x3584 shaders\water_templates\_0_1_1_1_1_0_1_3
+nametag 0x3585 shaders\water_options\water_global
 nametag 0x3586 shaders\water_options\waveshape_default
 nametag 0x3587 shaders\water_options\waveshape_bump
 nametag 0x3588 shaders\water_options\watercolor_pure
@@ -907,7 +911,6 @@ nametag 0x56AF shaders\particle_templates\_3_3_0_0_1_1_1_0_0_1
 nametag 0x56B0 shaders\particle_templates\_3_3_0_0_1_1_1_0_0_1
 nametag 0x5726 ui\chud\multiplayer_intro\summary_assault
 nametag 0x5727 ui\chud\multiplayer_intro\summary_ctf
-
 deletetag 0x4458 
 deletetag 0x44DE
 deletetag 0x457A 
