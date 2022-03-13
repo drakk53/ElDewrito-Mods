@@ -911,6 +911,31 @@ nametag 0x56AF shaders\particle_templates\_3_3_0_0_1_1_1_0_0_1
 nametag 0x56B0 shaders\particle_templates\_3_3_0_0_1_1_1_0_0_1
 nametag 0x5726 ui\chud\multiplayer_intro\summary_assault
 nametag 0x5727 ui\chud\multiplayer_intro\summary_ctf
+nametag 0x020C fx\material_effects\materials\tough\inorganic_rubber
+nametag 0x020E fx\material_effects\materials\tough\inorganic_rubber_hum_tire_mongoose
+nametag 0x020F fx\material_effects\materials\tough\inorganic_plastic
+nametag 0x0214 fx\material_effects\materials\tough\organic_wood
+nametag 
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+nametag
+
 deletetag 0x4458 
 deletetag 0x44DE
 deletetag 0x457A 
