@@ -1,3 +1,5 @@
+nametag 0x02A1 fx\physics_templates\sparks
+nametag 0x02A3 fx\physics_templates\explosion_fireball
 nametag 0x02AB shaders\particle_options\albedo_diffuse_only
 nametag 0x02AC shaders\particle_options\albedo_diffuse_plus_billboard_alpha
 nametag 0x02AD shaders\particle_options\albedo_palettized
@@ -10,12 +12,18 @@ nametag 0x02B3 shaders\particle_options\frame_blend_on
 nametag 0x02B4 shaders\particle_options\self_illumination_constant_color
 nametag 0x02B5 shaders\particle_shared_pixel_shaders
 nametag 0x02B6 shaders\particle_shared_vertex_shaders
+nametag 0x02CE sound\dsp_effects\covy_radio\covy_radio
+nametag 0x02D2 sound\dsp_effects\covy_radio\covy_radio_in
+nametag 0x02D3 sound\dsp_effects\covy_radio\covy_radio_loop
+nametag 0x02D4 sound\dsp_effects\covy_radio\covy_radio_out
 nametag 0x0501 shaders\shader_templates\_0_0_0_0_0_0_1_3_0_1_0
 nametag 0x0502 shaders\shader_templates\_0_0_0_0_0_0_1_3_0_1_0
 nametag 0x055E shaders\shader_templates\_0_2_0_2_1_2_1_0_0_1_0
 nametag 0x055F shaders\shader_templates\_0_2_0_2_1_2_1_0_0_1_0
 nametag 0x06C2 shaders\shader_templates\_0_1_0_1_1_2_1_0_0_0_0
 nametag 0x06C3 shaders\shader_templates\_0_1_0_1_1_2_1_0_0_0_0
+nametag 0x0C24 levels\shared\bitmaps\test_maps\cloud_1
+nametag 0x0C25 levels\shared\bitmaps\test_maps\cloud_2
 nametag 0x0E3A shaders\particle_templates\_0_8_3_0_0_1_1_0_1_0
 nametag 0x0E3B shaders\particle_templates\_0_8_3_0_0_1_1_0_1_0
 nametag 0x0E3E shaders\particle_templates\_0_8_0_0_0_1_1_0_1_0
@@ -144,6 +152,8 @@ nametag 0x144E shaders\particle_templates\_3_3_0_0_1_0_1_1_0_1
 nametag 0x144F shaders\particle_templates\_3_3_0_0_1_0_1_1_0_1
 nametag 0x1469 shaders\particle_templates\_0_10_0_0_0_0_1_1_0_0
 nametag 0x146A shaders\particle_templates\_0_10_0_0_0_0_1_1_0_0
+nametag 0x15A8 objects\equipment\tripmine\fx\detonation
+nametag 0x15A9 objects\equipment\tripmine\fx\detonation
 nametag 0x15F2 shaders\shader_templates\_4_1_0_1_1_2_0_0_0_1_0
 nametag 0x15F3 shaders\shader_templates\_4_1_0_1_1_2_0_0_0_1_0
 nametag 0x16A1 shaders\shader_templates\_10_3_0_1_1_2_9_0_0_1_0
@@ -166,6 +176,7 @@ nametag 0x1903 shaders\shader_templates\_10_3_0_1_1_2_1_0_0_0_0
 nametag 0x1904 shaders\shader_templates\_10_3_0_1_1_2_1_0_0_0_0
 nametag 0x19AF shaders\particle_templates\_5_8_0_0_0_1_0_0_0_0
 nametag 0x19B0 shaders\particle_templates\_5_8_0_0_0_1_0_0_0_0
+nametag 0x1A03 objects\equipment\tripmine\fx\detonation
 nametag 0x1A2C shaders\particle_templates\_0_8_3_0_0_1_0_0_0_0
 nametag 0x1A2D shaders\particle_templates\_0_8_3_0_0_1_0_0_0_0
 nametag 0x1A88 shaders\particle_templates\_0_3_0_1_0_0_0_0_0_0
@@ -244,12 +255,14 @@ nametag 0x254D shaders\shader_templates\_0_1_0_1_2_2_0_0_0_1_0
 nametag 0x254E shaders\shader_templates\_0_1_0_1_2_2_0_0_0_1_0
 nametag 0x2551 shaders\shader_templates\_0_0_0_1_0_0_1_3_0_1_0
 nametag 0x2552 shaders\shader_templates\_0_0_0_1_0_0_1_3_0_1_0
+nametag 0x25EE multiplayer\sandbox\cursor_impact
 nametag 0x265C shaders\shader_templates\_3_2_1_1_2_2_0_0_2_0_0
 nametag 0x265D shaders\shader_templates\_3_2_1_1_2_2_0_0_2_0_0
 nametag 0x2664 shaders\shader_templates\_0_2_0_1_2_0_0_0_0_2_0
 nametag 0x2665 shaders\shader_templates\_0_2_0_1_2_0_0_0_0_2_0
 nametag 0x2697 shaders\decal_templates\_0_1_0_0_0_0
 nametag 0x2698 shaders\decal_templates\_0_1_0_0_0_0
+nametag 0x26C8 shaders\default_bitmaps\bitmaps\color_white
 nametag 0x26C9 shaders\default_bitmaps\bitmaps\auto_exposure_weight
 nametag 0x26CA shaders\default_bitmaps\bitmaps\dither_pattern2
 nametag 0x26CB shaders\default_bitmaps\bitmaps\random4_warp
@@ -480,6 +493,7 @@ nametag 0x27AB rasterizer\shaders\unknown_27AB
 nametag 0x27AC rasterizer\active_camouflage_distortion
 nametag 0x27AD globals\default
 nametag 0x27AE globals\global_shield_impact_settings
+nametag 0x27B7 globals\damage_responses\collision
 nametag 0x280A shaders\halogram_templates\_0_1_1_0_0_0_0
 nametag 0x280B shaders\halogram_templates\_0_1_1_0_0_0_0
 nametag 0x2823 shaders\shader_templates\_0_0_0_0_1_0_7_1_0_0_0
@@ -606,6 +620,12 @@ nametag 0x3467 shaders\shader_templates\_0_1_1_2_2_2_0_0_0_0_0
 nametag 0x3468 shaders\shader_templates\_0_1_1_2_2_2_0_0_0_0_0
 nametag 0x356F shaders\shader_templates\_7_1_0_0_0_0_0_3_0_0_0
 nametag 0x3570 shaders\shader_templates\_7_1_0_0_0_0_0_3_0_0_0
+nametag 0x357C rasterizer\water\wave_test1\wave_test1_displ_water
+nametag 0x357D rasterizer\water\wave_test1\wave_test1_slope_water
+nametag 0x357E levels\multi\riverworld\bitmaps\z_cubemap_temp
+nametag 0x357F levels\multi\riverworld\bitmaps\riverworld_water_diffuse
+nametag 0x3580 levels\multi\riverworld\bitmaps\riverworld_water_multipurpose
+nametag 0x3581 levels\multi\riverworld\bitmaps\riverworld_water_foam_dif
 nametag 0x3583 shaders\water_templates\_0_1_1_1_1_0_1_3
 nametag 0x3584 shaders\water_templates\_0_1_1_1_1_0_1_3
 nametag 0x3586 shaders\water_options\waveshape_default
@@ -626,6 +646,7 @@ nametag 0x3594 shaders\water_options\foam_paint
 nametag 0x3595 shaders\water_options\foam_both
 nametag 0x3596 shaders\water_shared_pixel_shaders
 nametag 0x3597 shaders\water_shared_vertex_shaders
+nametag 0x3598 levels\shared\bitmaps\nature\water\wave_foam
 nametag 0x359A shaders\shader_templates\_2_0_0_0_0_0_5_1_0_0_0
 nametag 0x359B shaders\shader_templates\_2_0_0_0_0_0_5_1_0_0_0
 nametag 0x36BC shaders\shader_templates\_0_3_0_1_2_2_0_0_0_1_0
@@ -820,6 +841,7 @@ nametag 0x4466 shaders\shader_options\albedo_two_detail_black_point
 nametag 0x446F shaders\shader_options\bump_off
 nametag 0x4470 shaders\shader_options\bump_default
 nametag 0x4472 shaders\shader_options\bump_detail
+nametag 0x4477 shaders\default_bitmaps\bitmaps\default_alpha_test
 nametag 0x4478 shaders\shader_options\specular_mask_from_texture
 nametag 0x447B shaders\shader_options\material_two_lobe_phong_option
 nametag 0x4482 shaders\shader_options\env_map_per_pixel
@@ -831,6 +853,7 @@ nametag 0x4489 shaders\shader_options\illum_plasma
 nametag 0x448B shaders\shader_options\illum_from_diffuse
 nametag 0x448C shaders\shader_options\illum_detail
 nametag 0x448D shaders\shader_options\illum_meter
+nametag 0x448E shaders\default_bitmaps\bitmaps\monochrome_alpha_grid
 nametag 0x448F shaders\shader_options\illum_times_diffuse
 nametag 0x4492 shaders\shader_options\parallax_simple
 nametag 0x4494 shaders\shader_options\parallax_detail
@@ -882,6 +905,9 @@ nametag 0x56A8 shaders\shader_templates\_0_2_0_1_1_2_1_0_0_1_0_0
 nametag 0x56A9 shaders\shader_templates\_0_2_0_1_1_2_1_0_0_1_0_0
 nametag 0x56AF shaders\particle_templates\_3_3_0_0_1_1_1_0_0_1
 nametag 0x56B0 shaders\particle_templates\_3_3_0_0_1_1_1_0_0_1
+nametag 0x5726 ui\chud\multiplayer_intro\summary_assault
+nametag 0x5727 ui\chud\multiplayer_intro\summary_ctf
+
 deletetag 0x4458 
 deletetag 0x44DE
 deletetag 0x457A 
