@@ -1,5 +1,0 @@
-opencachefile "../H3Maps/010_jungle.map"
-porttag *.scnr
-savetagnames
-exit
-updatemapfilesalt "../H3Maps/info"

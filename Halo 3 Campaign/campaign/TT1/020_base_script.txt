@@ -1,5 +1,0 @@
-opencachefile "../H3Maps/020_base.map"
-porttag *.scnr
-savetagnames
-exit
-updatemapfilesalt "../H3Maps/info"

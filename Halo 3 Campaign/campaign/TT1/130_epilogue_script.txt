@@ -1,5 +1,0 @@
-opencachefile "../H3Maps/130_epilogue.map"
-porttag *.scnr
-savetagnames
-exit
-updatemapfilesalt "../H3Maps/info"

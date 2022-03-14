@@ -1,5 +1,0 @@
-opencachefile "../H3Maps/070_waste.map"
-porttag !generateshaders *.scnr
-savetagnames
-exit
-updatemapfilesalt "../H3Maps/info"

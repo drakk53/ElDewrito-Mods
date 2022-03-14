@@ -1,5 +1,0 @@
-opencachefile "../H3Maps/040_voi.map"
-porttag !generateshaders *.scnr
-savetagnames
-exit
-updatemapfilesalt "../H3Maps/info"

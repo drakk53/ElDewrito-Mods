@@ -1,5 +1,0 @@
-opencachefile "../H3Maps/120_halo.map"
-porttag *.scnr
-savetagnames
-exit
-updatemapfilesalt "../H3Maps/info"
