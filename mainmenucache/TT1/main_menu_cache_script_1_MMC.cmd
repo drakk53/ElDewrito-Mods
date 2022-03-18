@@ -1,0 +1,2 @@
+rebuildcachefiles "../MM"
+quit
