@@ -40,8 +40,8 @@ ECHO What Main Menu Would You Like to Port?
 ECHO 1.Halo 3 Main Menu
 ECHO 2.Halo 3 Mythic Main Menu
 ECHO 3.Halo 3 ODST Main Menu
-ECHO 4.Halo CEA Main Menu 
-ECHO 5.Custom MCC Main Menu
+ECHO 4.Halo CEA Main Menu (Non-Fucntional)
+ECHO 5.Custom MCC Main Menu (Non-Functional)
 ECHO.
 
 CHOICE /C 12345 /M "Enter your choice:"
