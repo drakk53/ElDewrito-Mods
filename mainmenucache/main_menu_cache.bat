@@ -40,26 +40,38 @@ ECHO What Main Menu Would You Like to Port?
 ECHO 1.Halo 3 Main Menu
 ECHO 2.Halo 3 Mythic Main Menu
 ECHO 3.Halo 3 ODST Main Menu
-ECHO 4.Custom MCC Main Menu
+ECHO 4.Halo CEA Main Menu 
+ECHO 5.Custom MCC Main Menu
 ECHO.
 
-CHOICE /C 1234 /M "Enter your choice:"
-IF ERRORLEVEL 4 GOTO MCC
+CHOICE /C 12345 /M "Enter your choice:"
+IF ERRORLEVEL 5 GOTO MCC
+IF ERRORLEVEL 4 GOTO CEAMP
 IF ERRORLEVEL 3 GOTO H3ODST
 IF ERRORLEVEL 2 GOTO H3M
 IF ERRORLEVEL 1 GOTO H3
 
 :H3
-:H3M
-:H3ODST
-:MCC
-
 ECHO Porting Halo 3 Main Menu....
 cd ../../TT2
 Type main_menu_cache_script_4.cmd | TagTool.exe ../MM/tags.dat
 ECHO Applying Patches....
 cd ../TT1
 Type main_menu_cache_script_5.cmd | TagTool.exe ../MM/tags.dat
+GOTO END
+
+:H3M
+ECHO Porting Halo 3 Mythic Main Menu....
+GOTO END
+:H3ODST
+ECHO Porting Halo 3 ODST Main Menu....
+GOTO END
+:CEAMP
+ECHO Porting Halo CEA Main Menu....
+GOTO END
+:MCC
+ECHO Porting Custom MCC Main Menu....
+GOTO END
 
 :END
 ECHO Done!
