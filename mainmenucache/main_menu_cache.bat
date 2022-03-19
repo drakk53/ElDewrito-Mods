@@ -54,23 +54,42 @@ IF ERRORLEVEL 1 GOTO H3
 :H3
 ECHO Porting Halo 3 Main Menu....
 cd ../../TT2
-Type main_menu_cache_script_4.cmd | TagTool.exe ../MM/tags.dat
+Type main_menu_cache_script_4_H3.cmd | TagTool.exe ../MM/tags.dat
 ECHO Applying Patches....
 cd ../TT1
-Type main_menu_cache_script_5.cmd | TagTool.exe ../MM/tags.dat
+Type main_menu_cache_script_5_H3.cmd | TagTool.exe ../MM/tags.dat
 GOTO END
 
 :H3M
 ECHO Porting Halo 3 Mythic Main Menu....
+cd ../../TT2
+Type main_menu_cache_script_4_H3M.cmd | TagTool.exe ../MM/tags.dat
+ECHO Applying Patches....
+cd ../TT1
+Type main_menu_cache_script_5_H3M.cmd | TagTool.exe ../MM/tags.dat
 GOTO END
+
 :H3ODST
 ECHO Porting Halo 3 ODST Main Menu....
+cd ../../TT2
+Type main_menu_cache_script_4_H3ODST.cmd | TagTool.exe ../MM/tags.dat
+ECHO Applying Patches....
+cd ../TT1
+Type main_menu_cache_script_5_H3ODST.cmd | TagTool.exe ../MM/tags.dat
 GOTO END
+
 :CEAMP
 ECHO Porting Halo CEA Main Menu....
+cd ../../TT2
+Type main_menu_cache_script_4_CEAMP.cmd | TagTool.exe ../MM/tags.dat
+ECHO Applying Patches....
 GOTO END
+
 :MCC
 ECHO Porting Custom MCC Main Menu....
+cd ../../TT2
+Type main_menu_cache_script_4_MCC.cmd | TagTool.exe ../MM/tags.dat
+ECHO Applying Patches....
 GOTO END
 
 :END
