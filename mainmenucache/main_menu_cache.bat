@@ -12,19 +12,23 @@ IF ERRORLEVEL 1 GOTO 0.6
 cd TT1
 ECHO Rebuilding Cache....
 Type main_menu_cache_script_1_ED.cmd | TagTool.exe ../ED/tags.dat
+cd ../TT2
+Type main_menu_cache_script_2.cmd | TagTool.exe ../MM/tags.dat
+cd ../TT1
+Type main_menu_cache_script_3.cmd | TagTool.exe ../MM/tags.dat
 GOTO Continue
 
 :MMC
 cd TT1
 ECHO Rebuilding Cache....
 Type main_menu_cache_script_1_MMC.cmd | TagTool.exe ../ED/tags.dat
-GOTO Continue
-
-:Continue
 cd ../TT2
 Type main_menu_cache_script_2.cmd | TagTool.exe ../MM/tags.dat
 cd ../TT1
 Type main_menu_cache_script_3.cmd | TagTool.exe ../MM/tags.dat
+GOTO Continue
+
+:Continue
 ECHO Cache Rebuilt!
 ECHO Copying Map Files....
 cd ../ED
