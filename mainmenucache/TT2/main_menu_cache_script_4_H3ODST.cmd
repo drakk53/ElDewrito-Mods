@@ -5,57 +5,57 @@ savetagchanges
 exit
 createtag bitm levels\atlas\c100\bitmaps\gfxt
 edittag levels\atlas\c100\bitmaps\gfxt.bitmap
-importbitmap 0 "../DDS/c100.dds"
+importbitmap 0 "../DDS/ODST/c100.dds"
 savetagchanges
 exit
 createtag bitm levels\atlas\sc100\bitmaps\gfxt
 edittag levels\atlas\sc100\bitmaps\gfxt.bitmap
-importbitmap 0 "../DDS/sc100.dds"
+importbitmap 0 "../DDS/ODST/sc100.dds"
 savetagchanges
 exit
 createtag bitm levels\atlas\sc110\bitmaps\gfxt
 edittag levels\atlas\sc110\bitmaps\gfxt.bitmap
-importbitmap 0 "../DDS/sc110.dds"
+importbitmap 0 "../DDS/ODST/sc110.dds"
 savetagchanges
 exit
 createtag bitm levels\atlas\sc120\bitmaps\gfxt
 edittag levels\atlas\sc120\bitmaps\gfxt.bitmap
-importbitmap 0 "../DDS/sc120.dds"
+importbitmap 0 "../DDS/ODST/sc120.dds"
 savetagchanges
 exit
 createtag bitm levels\atlas\sc130\bitmaps\gfxt
 edittag levels\atlas\sc130\bitmaps\gfxt.bitmap
-importbitmap 0 "../DDS/sc130.dds"
+importbitmap 0 "../DDS/ODST/sc130.dds"
 savetagchanges
 exit
 createtag bitm levels\atlas\sc140\bitmaps\gfxt
 edittag levels\atlas\sc140\bitmaps\gfxt.bitmap
-importbitmap 0 "../DDS/sc140.dds"
+importbitmap 0 "../DDS/ODST/sc140.dds"
 savetagchanges
 exit
 createtag bitm levels\atlas\sc150\bitmaps\gfxt
 edittag levels\atlas\sc150\bitmaps\gfxt.bitmap
-importbitmap 0 "../DDS/sc150.dds"
+importbitmap 0 "../DDS/ODST/sc150.dds"
 savetagchanges
 exit
 createtag bitm levels\atlas\l200\bitmaps\gfxt
 edittag levels\atlas\l200\bitmaps\gfxt.bitmap
-importbitmap 0 "../DDS/l200.dds"
+importbitmap 0 "../DDS/ODST/l200.dds"
 savetagchanges
 exit
 createtag bitm levels\atlas\l300\bitmaps\gfxt
 edittag levels\atlas\l300\bitmaps\gfxt.bitmap
-importbitmap 0 "../DDS/l300.dds"
+importbitmap 0 "../DDS/ODST/l300.dds"
 savetagchanges
 exit
 createtag bitm levels\atlas\h100\bitmaps\gfxt
 edittag levels\atlas\h100\bitmaps\gfxt.bitmap
-importbitmap 0 "../DDS/h100.dds"
+importbitmap 0 "../DDS/ODST/h100.dds"
 savetagchanges
 exit
 createtag bitm levels\atlas\c200\bitmaps\gfxt
 edittag levels\atlas\c200\bitmaps\gfxt.bitmap
-importbitmap 0 "../DDS/c200.dds"
+importbitmap 0 "../DDS/ODST/c200.dds"
 savetagchanges
 exit
 edittag ui\halox\main_menu\gfxt.gfxt
