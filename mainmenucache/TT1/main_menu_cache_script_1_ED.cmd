@@ -1432,6 +1432,5 @@ deletetag 0x4762
 deletetag 0x5013 
 deletetag 0x50CC 
 savetagnames
-cleancachefiles
 rebuildcachefiles "../MM"
 quit
