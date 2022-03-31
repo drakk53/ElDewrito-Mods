@@ -1422,6 +1422,20 @@ nametag 0x56AF shaders\particle_templates\_3_3_0_0_1_1_1_0_0_1
 nametag 0x56B0 shaders\particle_templates\_3_3_0_0_1_1_1_0_0_1
 nametag 0x5726 ui\chud\multiplayer_intro\summary_assault
 nametag 0x5727 ui\chud\multiplayer_intro\summary_ctf
+nametag 0x5731 ui\halox\main_menu\gfxt
+nametag 0x5732 levels\ui\placeholder\bitmap\gfxt
+nametag 0x5733 levels\multi\riverworld\bitmap\gfxt
+nametag 0x5734 levels\multi\s3d_turf\bitmap\gfxt
+nametag 0x5735 levels\dlc\bunkerworld\bitmap\gfxt
+nametag 0x5736 levels\multi\shrine\bitmap\gfxt
+nametag 0x5737 levels\multi\cyberdyne\bitmap\gfxt
+nametag 0x5738 levels\multi\s3d_reactor\bitmap\gfxt
+nametag 0x5739 levels\multi\chill\bitmap\gfxt
+nametag 0x573A levels\multi\zanzibar\bitmap\gfxt
+nametag 0x573B levels\multi\s3d_edge\bitmap\gfxt
+nametag 0x573C levels\multi\deadlock\bitmap\gfxt
+nametag 0x573D levels\multi\guardian\bitmap\gfxt
+nametag 0x573E levels\multi\s3d_avalanche\bitmap\gfxt
 deletetag 0x4458 
 deletetag 0x44DE
 deletetag 0x457A 
