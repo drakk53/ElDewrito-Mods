@@ -189,7 +189,7 @@ nametag 0x0878 ui\halox\start_menu\animations\subhead_down_to_0
 nametag 0x0879 ui\halox\pregame_lobby\selection\button_key
 nametag 0x0889 ui\halox\global_animations\animations\fade_out_fast
 nametag 0x088A ui\halox\in_progress\fadein
-nametag 0x088D ui\halox\start_menu\panes\hq_service_record\font_number_hack_ui
+nametag 0x08BD ui\halox\start_menu\panes\hq_service_record\font_number_hack_ui
 nametag 0x0893 ui\halox\dialog\dialog_list
 nametag 0x0894 ui\halox\dialog\dialog_list_bitmaps
 nametag 0x089F ui\halox\start_menu\panes\hq\animations\outer_ring
@@ -376,7 +376,7 @@ nametag 0x0ADC ui\halox\director\standard_list_bitmaps
 nametag 0x0ADD ui\halox\common\common_bitmaps\white_90
 nametag 0x0ADE ui\halox\director\long_fade
 nametag 0x0ADF ui\halox\director\long_fade_in
-nametag 0x0AE0 ui\halox\campaign\skull_hilite_ui
+nametag 0x0AF0 ui\halox\campaign\skull_hilite_ui
 nametag 0x0AE0 ui\halox\director\fade_out_long
 nametag 0x0AE1 ui\halox\director\fade_in_long
 nametag 0x0AEA ui\halox\campaign\animations\options_list_item
@@ -543,7 +543,7 @@ nametag 0x1282 ui\halox\alert\animations\top_scale_down
 nametag 0x1284 ui\halox\alert\animations\top_scale_up
 nametag 0x1287 ui\halox\alert\animations\alert_bottom_out
 nametag 0x1288 ui\halox\alert\animations\bottom_scale_down
-nametag 0x12A8 ui\halox\alert\animations\bottom_scale_up
+nametag 0x128A ui\halox\alert\animations\bottom_scale_up
 nametag 0x12B9 ui\chud\bitmaps\unknown
 nametag 0x12BC ui\chud\bitmaps\unknown
 nametag 0x12FA rasterizer\shaders\chud_halo_online_unknown_shader
