@@ -253,7 +253,7 @@ nametag 0x094D ui\halox\start_menu\animations\subhead_down_to_2
 nametag 0x094F ui\halox\start_menu\panes\settings_appearance_colors\animations\color_highlight
 nametag 0x0950 ui\halox\start_menu\panes\settings_appearance_colors\color_focus
 nametag 0x0951 ui\halox\start_menu\panes\settings_appearance_colors\animations\color_highlight_ambient_focused
-nametag 0x0952 ui\halox\start_menu\panes\settings_appearance_colors\animations\color_highlight_ambient_disabled_focused
+nametag 0x0953 ui\halox\start_menu\panes\settings_appearance_colors\animations\color_highlight_ambient_disabled_focused
 nametag 0x0952 ui\halox\start_menu\panes\settings_appearance_colors\animations\color_highlight_ambient_unfocused
 nametag 0x0954 ui\halox\start_menu\panes\settings_appearance_colors\animations\color_highlight_ambient_disabled_unfocused
 nametag 0x0955 ui\halox\start_menu\panes\settings_appearance_colors\animations\color_highlight_ambient_focused
@@ -656,8 +656,8 @@ nametag 0x15A8 objects\equipment\tripmine\fx\detonation
 nametag 0x15A9 objects\equipment\tripmine\fx\detonation
 nametag 0x15F2 shaders\shader_templates\_4_1_0_1_1_2_0_0_0_1_0
 nametag 0x15F3 shaders\shader_templates\_4_1_0_1_1_2_0_0_0_1_0
-nametag 0x164C fx\particles\vehicle\dirt\impact_chunks_medium_dirt
-nametag 0x164D fx\particles\vehicle\dirt\impact_chunks_small_rock
+nametag 0x146C fx\particles\vehicle\dirt\impact_chunks_medium_dirt
+nametag 0x146D fx\particles\vehicle\dirt\impact_chunks_small_rock
 nametag 0x16A1 shaders\shader_templates\_10_3_0_1_1_2_9_0_0_1_0
 nametag 0x16A2 shaders\shader_templates\_10_3_0_1_1_2_9_0_0_1_0
 nametag 0x18BF shaders\screen_templates\_2_0_4_1_0
