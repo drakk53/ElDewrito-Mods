@@ -1436,6 +1436,77 @@ nametag 0x573B levels\multi\s3d_edge\bitmap\gfxt
 nametag 0x573C levels\multi\deadlock\bitmap\gfxt
 nametag 0x573D levels\multi\guardian\bitmap\gfxt
 nametag 0x573E levels\multi\s3d_avalanche\bitmap\gfxt
+nametag 0x02D0 sound\dsp_effects\radio_static\radio_static_out
+nametag 0x02D1 sound\dsp_effects\radio_static\radio_static_loop
+nametag 0x02D5 sound\dsp_effects\radio_static\radio_loop\in
+nametag 0x02D6 sound\dsp_effects\radio_static\radio_loop\loop
+nametag 0x02D7 sound\dsp_effects\radio_static\radio_loop\out
+nametag 0x1488 sound\materials\soft\soft_organic_plant_bushy_dynamic\soft_organic_plant_bushy_dyn_looping\soft_organic_plant_bushy_dyn_loop\in
+nametag 0x1489 sound\materials\soft\soft_organic_plant_bushy_dynamic\soft_organic_plant_bushy_dyn_looping\soft_organic_plant_bushy_dyn_loop\loop
+nametag 0x148A sound\materials\soft\soft_organic_plant_bushy_dynamic\soft_organic_plant_bushy_dyn_looping\soft_organic_plant_bushy_dyn_loop\alt_loop
+nametag 0x148E sound\materials\tough\tough_organic_wood_tree_dynamic\organic_wood_tree_dyn_looping\organic_wood_tree_dyn_looping\in
+nametag 0x148F sound\materials\tough\tough_organic_wood_tree_dynamic\organic_wood_tree_dyn_looping\organic_wood_tree_dyn_looping\loop
+nametag 0x1490 sound\materials\tough\tough_organic_wood_tree_dynamic\organic_wood_tree_dyn_looping\organic_wood_tree_dyn_looping\alt_loop
+nametag 0x02DF sound\levels\underwater\deltatemple_underwater\front_speakers\loop
+nametag 0x02E0 sound\levels\underwater\deltatemple_underwater\rear_speakers\loop
+nametag 0x1304 sound\weapons\rocket_launcher\tracking_locking\locking\loop
+nametag 0x1306 sound\weapons\missile_launcher\tracking_locking\locking\loop
+nametag 0x1305 sound\weapons\rocket_launcher\tracking_locked\locked\loop
+nametag 0x1307 sound\weapons\missile_launcher\tracking_locked\locked\loop
+nametag 0x13BC sound\materials\liquid\vehicle_water_looping\vehicle_water_loop\loop
+nametag 0x13BD sound\materials\liquid\vehicle_water_looping\vehicle_water_loop\alt_loop
+nametag 0x13BF sound\materials\liquid\water_looping\water_loop\loop
+nametag 0x13C0 sound\materials\liquid\water_looping\water_loop\out
+nametag 0x13C1 sound\materials\liquid\water_looping\water_loop\alt_loop
+nametag 0x13C4 sound\materials\soft\soft_organic_plant_leafy_dynamic\soft_organic_plant_leafy_dynamic\small_foliage\in
+nametag 0x13C5 sound\materials\soft\soft_organic_plant_leafy_dynamic\soft_organic_plant_leafy_dynamic\small_foliage\loop
+nametag 0x13C6 sound\materials\soft\soft_organic_plant_leafy_dynamic\soft_organic_plant_leafy_dynamic\small_foliage\alt_loop
+nametag 0x13C8 sound\materials\energy\elec_looping\elec_rolling\loop
+nametag 0x13C9 sound\materials\energy\elec_looping\elec_rolling\alt_loop
+nametag 0x0204 sound\materials\tough\terrain_dirt\dirt_small
+nametag 0x13CE sound\materials\tough\terrain_dirt\dirt_collision_med
+nametag 0x0206 sound\materials\tough\terrain_dirt\dirt_large
+nametag 0x0221 sound\materials\hard\terrain_stone\stone_small
+nametag 0x0222 sound\materials\hard\terrain_stone\stone_med
+nametag 0x1410 sound\materials\hard\terrain_stone\stone_collision_med
+nametag 0x0223 sound\materials\hard\metal_solid\metal_solid_large
+nametag 0x13CF sound\materials\tough\plastic_looping\plastic_loop\soft_loop
+nametag 0x13D0 sound\materials\tough\plastic_looping\plastic_loop\loop
+nametag 0x13D2 sound\materials\tough\rubber\rubber_looping\rubber_loop\loop
+nametag 0x13D3 sound\materials\tough\rubber\rubber_looping\rubber_loop\alt_loop
+nametag 0x140E sound\materials\hard\terrain_stone\stone_looping\stone_loop\loop
+nametag 0x140F sound\materials\hard\terrain_stone\stone_looping\stone_loop\alt_loop
+nametag 0x13F8 sound\vehicles\warthog\skid_dirt\skid_dirt\alt_loop
+nametag 0x1449 sound\vehicles\warthog\skid_dirt\skid_dirt\alt_loop_mong
+nametag 0x1411 sound\materials\hard\metal_thin\metal_thin_looping\metal_thin_loop\loop
+nametag 0x1412 sound\materials\hard\metal_thin\metal_thin_looping\metal_thin_loop\alt_loop
+nametag 0x146F sound\materials\hard\metal_thick\metal_thick_hum_hollow_med_looping\metal_thick_hollow_med_looping\loop
+nametag 0x1470 sound\materials\hard\metal_thick\metal_thick_hum_hollow_med_looping\metal_thick_hollow_med_looping\alt_loop
+nametag 0x1413 sound\materials\hard\metal_thin\metal_thin_cov_elite_small_looping\metal_thin_cov_elite_sm_loop\loop
+nametag 0x1414 sound\materials\hard\metal_thin\metal_thin_cov_elite_small_looping\metal_thin_cov_elite_sm_loop\alt_loop
+nametag 0x023D sound\materials\hard\metal_solid\metal_solid_small_h3_actee
+nametag 0x023E sound\materials\hard\metal_solid\metal_solid_med_h3_actee
+nametag 0x141E sound\materials\hard\metal_solid\metal_solid_small_h3_actor
+nametag 0x141F sound\materials\hard\metal_solid\metal_solid_med_h3_actor
+nametag 0x1436 sound\materials\energy\blue_plasma_looping\blue_plasma\loop
+nametag 0x1437 sound\materials\energy\blue_plasma_looping\blue_plasma\alt_loop
+nametag 0x025B sound\materials\hard\metal_solid\metal_solid_small
+nametag 0x025C sound\materials\hard\metal_solid\metal_solid_med
+nametag 0x147B sound\materials\soft\cardboard\cardboard_smooth_looping\cardboard_smooth_looping\loop
+nametag 0x147C sound\materials\soft\cardboard\cardboard_smooth_looping\cardboard_smooth_looping\alt_loop
+nametag 0x1482 sound\materials\havok\hubcap_looping\track1\loop
+nametag 0x1483 sound\materials\havok\hubcap_looping\track1\alt_loop
+nametag 0x1484 sound\materials\tough\terrain_floodflesh\floodflesh_looping\floodflesh_looping\loop
+nametag 0x1485 sound\materials\tough\terrain_floodflesh\floodflesh_looping\floodflesh_looping\alt_loop
+nametag 0x1486 sound\materials\tough\terrain_floodflesh\floodflesh_wet_looping\floodflesh_wet_looping\loop
+nametag 0x1487 sound\materials\tough\terrain_floodflesh\floodflesh_wet_looping\floodflesh_wet_looping\alt_loop
+nametag 0x148C sound\materials\tough\tough_organic_wood_sapling_dynamic\tough_organic_wood_sapling_dyn_looping\leafy_tree_loop\loop
+nametag 0x148D sound\materials\tough\tough_organic_wood_sapling_dynamic\tough_organic_wood_sapling_dyn_looping\leafy_tree_loop\alt_loop
+nametag 0x1491 sound\materials\gear\soccer_ball\tire_rolling_soccer_ball\tire_looping_soft_surface\loop
+nametag 0x1492 sound\materials\gear\soccer_ball\tire_rolling_soccer_ball\tire_looping_soft_surface\alt_loop
+deletetag 0x0AF9
+deletetag 0x12B9
+deletetag 0x12BC
 deletetag 0x4458 
 deletetag 0x44DE
 deletetag 0x457A 
@@ -1444,7 +1515,8 @@ deletetag 0x4740
 deletetag 0x4753 
 deletetag 0x4762 
 deletetag 0x5013 
-deletetag 0x50CC 
+deletetag 0x50CC
+deletetag 0x52A9
 savetagnames
 rebuildcachefiles "../MM"
 quit
