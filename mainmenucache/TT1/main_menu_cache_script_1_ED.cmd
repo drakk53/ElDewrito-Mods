@@ -140,6 +140,7 @@ nametag 0x080C ui\halox\start_menu\animations\sidebar\sidebar_load5
 nametag 0x080E ui\halox\start_menu\animations\sidebar\sidebar_load6
 nametag 0x080F ui\halox\start_menu\animations\sidebar\sidebar_unload6
 nametag 0x0810 ui\halox\start_menu\animations\sidebar\sidebar_load6
+nametag 0x0811 ui\halox\start_menu\animations\sidebar\sidebar_unload6
 nametag 0x0812 ui\halox\global_animations\animation_collections\standard_list
 nametag 0x0813 ui\halox\start_menu\animations\start_list_bitmaps
 nametag 0x0814 ui\halox\start_menu\panes\common\name_value_item\name_value_item_bitmap_ambient_focused
@@ -207,6 +208,7 @@ nametag 0x0889 ui\halox\global_animations\animations\fade_out_fast
 nametag 0x088A ui\halox\in_progress\fadein
 nametag 0x0893 ui\halox\dialog\dialog_list
 nametag 0x0894 ui\halox\dialog\dialog_list_bitmaps
+nametag 0x0897 ui\halox\start_menu\panes\hq\headquarters
 nametag 0x089F ui\halox\start_menu\panes\hq\animations\outer_ring
 nametag 0x08A1 ui\halox\start_menu\panes\hq\animations\middle_ring
 nametag 0x08A3 ui\halox\start_menu\panes\hq\animations\inner_ring
@@ -260,6 +262,7 @@ nametag 0x091E ui\halox\start_menu\animations\subhead_down_to_1
 nametag 0x0928 ui\halox\start_menu\animations\subhead_down_to_3
 nametag 0x092E ui\halox\start_menu\animations\subhead_up_from_4
 nametag 0x092F ui\halox\start_menu\animations\subhead_down_to_4
+nametag 0x0931 ui\halox\start_menu\panes\settings_appearance\sidebar_items
 nametag 0x0946 ui\halox\start_menu\animations\standard_start_list
 nametag 0x0947 ui\halox\start_menu\panes\settings_appearance_colors\animations\colors_list_white_bitmaps
 nametag 0x0948 ui\halox\start_menu\panes\settings_appearance_colors\animations\colors_list_bitmaps
@@ -281,7 +284,10 @@ nametag 0x0962 ui\halox\start_menu\panes\settings_appearance_emblem\emblem_list_
 nametag 0x0963 ui\halox\start_menu\panes\settings_appearance_emblem\up_arrow
 nametag 0x0964 ui\halox\start_menu\panes\settings_appearance_emblem\down_arrow
 nametag 0x0965 ui\halox\start_menu\animations\panes
+nametag 0x0967 ui\halox\start_menu\panes\settings_appearance_model\sidebar_items
+nametag 0x0981 ui\halox\start_menu\panes\settings_film_autosave\sidebar_items
 nametag 0x0997 ui\halox\matchmaking\animations\inner_ring
+nametag 0x09A8 ui\halox\spartan_program\spartan_rank_constants
 nametag 0x09B0 ui\halox\spartan_program\dimmed
 nametag 0x09B1 ui\halox\spartan_program\fade_out_delayed
 nametag 0x09B3 ui\halox\spartan_program\fade_in_delayed
@@ -334,16 +340,19 @@ nametag 0x0A1D ui\halox\pregame_lobby\animations\precaching\precache_wipe
 nametag 0x0A1E ui\halox\pregame_lobby\animations\precaching\hide_additive_bitmap
 nametag 0x0A1F ui\halox\pregame_lobby\animations\precaching\wipe_scale
 nametag 0x0A26 ui\halox\pregame_lobby\button_key
+nametag 0x0A2B ui\halox\pregame_lobby\lobby_list_mapeditor
+nametag 0x0A2C ui\halox\pregame_lobby\lobby_list_theater
 nametag 0x0A39 ui\halox\pregame_lobby\animations\list_white_bitmaps
 nametag 0x0A3A ui\halox\pregame_lobby\switch_lobby\arrow_ui
 nametag 0x0A3B ui\halox\pregame_lobby\selection\lock
-nametag 0x0A3C ui\halox\campaign\animations\right_white_bitmaps
+nametag 0x0A3C ui\halox\pregame_lobby\animations\right_white_bitmaps
 nametag 0x0A3D ui\halox\pregame_lobby\selection\corrupt_file_ui
 nametag 0x0A3E ui\halox\pregame_lobby\animations\selection\new_item
 nametag 0x0A3F ui\halox\pregame_lobby\selection\new
 nametag 0x0A40 ui\halox\pregame_lobby\animations\selection\new_item_focused
 nametag 0x0A41 ui\halox\pregame_lobby\selection\new_item_unfocused
 nametag 0x0A42 ui\halox\pregame_lobby\selection\new_disabled
+nametag 0x0A43 ui\halox\pregame_lobby\selection\new_rotation
 nametag 0x0A49 ui\halox\pregame_lobby\maximum_party_size\slider_text
 nametag 0x0A4A ui\halox\pregame_lobby\maximum_party_size\slider_bitmap
 nametag 0x0A4B ui\halox\pregame_lobby\maximum_party_size\slider_hilite
@@ -373,6 +382,8 @@ nametag 0x0A7E ui\halox\global_animations\animations\delayd_crossfade_out
 nametag 0x0A7F ui\halox\global_animations\animations\delayd_crossfade_in
 nametag 0x0A89 ui\halox\global_animations\animation_collections\hidden
 nametag 0x0A8A ui\halox\common\common_bitmaps\white_50
+nametag 0x0A93 ui\halox\matchmaking\match_found_constants
+nametag 0x0A9B ui\halox\matchmaking\searching_constants
 nametag 0x0AA7 ui\halox\matchmaking\animations\ping_ambient
 nametag 0x0AA8 ui\halox\matchmaking\animations\ping_custom0
 nametag 0x0AA9 ui\halox\matchmaking\animations\ping_slide
@@ -537,6 +548,8 @@ nametag 0x11F4 shaders\shader_templates\_0_1_0_0_1_4_0_0_0_0_0
 nametag 0x122A ui\halox\sandbox_ui\standard_submenued_list
 nametag 0x122B ui\halox\common\spinner_list\list_value
 nametag 0x122C ui\halox\common\spinner_list\item_bitmap
+nametag 0x122E ui\halox\common\spinner_list\left_arrow
+nametag 0x122F ui\halox\common\spinner_list\right_arrow
 nametag 0x1230 ui\halox\common\spinner_list\spinner
 nametag 0x1239 ui\halox\campaign\animations\campaign_select_level
 nametag 0x123A ui\halox\campaign\animations\campaign_select_level_disabled
@@ -843,7 +856,7 @@ nametag 0x2664 shaders\shader_templates\_0_2_0_1_2_0_0_0_0_2_0
 nametag 0x2665 shaders\shader_templates\_0_2_0_1_2_0_0_0_0_2_0
 nametag 0x2697 shaders\decal_templates\_0_1_0_0_0_0
 nametag 0x2698 shaders\decal_templates\_0_1_0_0_0_0
-nametag 0x26C8 shaders\default_bitmaps\bitmaps\color_white
+nametag 0x26C8 rasterizer\colorbars
 nametag 0x26C9 shaders\default_bitmaps\bitmaps\auto_exposure_weight
 nametag 0x26CA shaders\default_bitmaps\bitmaps\dither_pattern2
 nametag 0x26CB shaders\default_bitmaps\bitmaps\random4_warp
@@ -1504,9 +1517,28 @@ nametag 0x573B levels\multi\s3d_edge\bitmap\gfxt
 nametag 0x573C levels\multi\deadlock\bitmap\gfxt
 nametag 0x573D levels\multi\guardian\bitmap\gfxt
 nametag 0x573E levels\multi\s3d_avalanche\bitmap\gfxt
+deletetag 0x028C
+deletetag 0x0A12
+deletetag 0x0A13
+deletetag 0x0A8A
 deletetag 0x0AF9
 deletetag 0x12B9
 deletetag 0x12BC
+deletetag 0x143B
+deletetag 0x143C
+deletetag 0x143D
+deletetag 0x143E
+deletetag 0x143F
+deletetag 0x1441
+deletetag 0x1442
+deletetag 0x1443
+deletetag 0x1444
+deletetag 0x1445
+deletetag 0x1446
+deletetag 0x15A9
+deletetag 0x214A
+deletetag 0x2186
+deletetag 0x25E2
 deletetag 0x4458 
 deletetag 0x44DE
 deletetag 0x457A 
@@ -1517,6 +1549,56 @@ deletetag 0x4762
 deletetag 0x5013 
 deletetag 0x50CC
 deletetag 0x52A9
+deletetag 0x5ADB
+edittag 0x15D7
+setfield events[0].particlesystems[0].particle 0x029D
+savetagchanges
+exit
+edittag 0x15D7
+setfield events[0].particlesystems[4].particle 0x02A0
+savetagchanges
+exit
+edittag 0x15D7
+setfield events[0].particlesystems[3].particle 0x04BE
+savetagchanges
+exit
+edittag 0x0016
+setfield materials[237].materialeffects 0x020C
+savetagchanges
+exit
+edittag 0x025A
+setfield effects[13].effects[2].effect 0x13D5
+setfield effects[13].effects[3].effect 0x13D6
+setfield effects[13].effects[4].effect 0x13D7
+setfield effects[13].effects[5].effect 0x13D8
+setfield effects[13].effects[8].effect 0x13D9
+setfield effects[14].effects[1].effect 0x13DD
+setfield effects[14].effects[2].effect 0x13DE
+setfield effects[14].effects[3].effect 0x13DF
+setfield effects[14].effects[4].effect 0x13E0
+setfield effects[14].effects[8].effect 0x13E1
+setfield effects[14].effects[9].effect 0x13E2
+savetagchanges
+exit
+edittag 0x0B1B
+setfield gameenginesettings[0].options[4].valuepairs 0x0BAB
+savetagchanges
+exit
+edittag 0x09F6
+setfield unknown 0x086C
+setfield unknown2 0x086C
+savetagchanges
+exit
+edittag 0x0A88
+setfield bitmapwidgets[0].bitmap 0x08BE
+setfield bitmapwidgets[1].bitmap 0x08BE
+setfield bitmapwidgets[19].bitmap 0x08BE
+savetagchanges
+exit
+edittag 0x028E
+setfield runtime[0].unknown3 0x15A8
+savetagchanges
+exit
 savetagnames
 rebuildcachefiles "../MM"
 quit
