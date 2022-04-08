@@ -1653,9 +1653,12 @@ deletetag 0x028C
 deletetag 0x0A12
 deletetag 0x0A13
 deletetag 0x0A8A
+deletetag 0x0AB2
 deletetag 0x0AF9
 deletetag 0x12B9
 deletetag 0x12BC
+deletetag 0x12FA
+deletetag 0x12FB
 deletetag 0x143B
 deletetag 0x143C
 deletetag 0x143D
@@ -1729,6 +1732,10 @@ savetagchanges
 exit
 edittag 0x028E
 setfield runtime[0].unknown3 0x15A8
+savetagchanges
+exit
+edittag 0x01BD
+removeblockelements hudshaders 25
 savetagchanges
 exit
 savetagnames
