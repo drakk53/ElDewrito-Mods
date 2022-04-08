@@ -63,8 +63,8 @@ edittag levels\dlc\armory\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/armory.dds"
 savetagchanges
 exit
-createtag bitm levels\dlc\bunkerworld\bunkerworld\gfxt
-edittag levels\dlc\bunkerworld\bunkerworld\gfxt.bitmap
+createtag bitm levels\dlc\bunkerworld\bitmaps\gfxt
+edittag levels\dlc\bunkerworld\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/bunkerworld.dds"
 savetagchanges
 exit
@@ -123,8 +123,8 @@ edittag levels\dlc\warehouse\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/warehouse.dds"
 savetagchanges
 exit
-createtag bitm levels\multi\chill\chill\gfxt
-edittag levels\multi\chill\chill\gfxt.bitmap
+createtag bitm levels\multi\chill\bitmaps\gfxt
+edittag levels\multi\chill\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/chill.dds"
 savetagchanges
 exit
@@ -133,18 +133,18 @@ edittag levels\multi\construct\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/construct.dds"
 savetagchanges
 exit
-createtag bitm levels\multi\cyberdyne\cyberdyne\gfxt
-edittag levels\multi\cyberdyne\cyberdyne\gfxt.bitmap
+createtag bitm levels\multi\cyberdyne\bitmaps\gfxt
+edittag levels\multi\cyberdyne\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/cyberdyne.dds"
 savetagchanges
 exit
-createtag bitm levels\multi\deadlock\deadlock\gfxt
-edittag levels\multi\deadlock\deadlock\gfxt.bitmap
+createtag bitm levels\multi\deadlock\bitmaps\gfxt
+edittag levels\multi\deadlock\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/deadlock.dds"
 savetagchanges
 exit
-createtag bitm levels\multi\guardian\guardian\gfxt
-edittag levels\multi\guardian\guardian\gfxt.bitmap
+createtag bitm levels\multi\guardian\bitmaps\gfxt
+edittag levels\multi\guardian\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/guardian.dds"
 savetagchanges
 exit
@@ -153,23 +153,23 @@ edittag levels\multi\isolation\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/isolation.dds"
 savetagchanges
 exit
-createtag bitm levels\multi\riverworld\riverworld\gfxt
-edittag levels\multi\riverworld\riverworld\gfxt.bitmap
+createtag bitm levels\multi\riverworld\bitmaps\gfxt
+edittag levels\multi\riverworld\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/riverworld.dds"
 savetagchanges
 exit
-createtag bitm levels\multi\s3d_edge\s3d_edge\gfxt
-edittag levels\multi\s3d_edge\s3d_edge\gfxt.bitmap
+createtag bitm levels\multi\s3d_edge\bitmaps\gfxt
+edittag levels\multi\s3d_edge\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/s3d_edge.dds"
 savetagchanges
 exit
-createtag bitm levels\multi\s3d_turf\s3d_turf\gfxt
-edittag bitm levels\multi\s3d_turf\s3d_turf\gfxt.bitmap
+createtag bitm levels\multi\s3d_turf\bitmaps\gfxt
+edittag bitm levels\multi\s3d_turf\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/s3d_turf.dds"
 savetagchanges
 exit
-createtag bitm levels\multi\s3d_waterfall\s3d_waterfall\gfxt
-edittag levels\multi\s3d_waterfall\s3d_waterfall\gfxt.bitmap
+createtag bitm levels\multi\s3d_waterfall\bitmaps\gfxt
+edittag levels\multi\s3d_waterfall\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/s3d_waterfall.dds"
 savetagchanges
 exit
@@ -178,8 +178,8 @@ edittag levels\multi\salvation\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/salvation.dds"
 savetagchanges
 exit
-createtag bitm levels\multi\shrine\shrine\gfxt
-edittag levels\multi\shrine\shrine\gfxt.bitmap
+createtag bitm levels\multi\shrine\bitmaps\gfxt
+edittag levels\multi\shrine\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/shrine.dds"
 savetagchanges
 exit
@@ -188,8 +188,8 @@ edittag levels\multi\snowbound\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/snowbound.dds"
 savetagchanges
 exit
-createtag bitm levels\multi\zanzibar\zanzibar\gfxt
-edittag levels\multi\zanzibar\zanzibar\gfxt.bitmap
+createtag bitm levels\multi\zanzibar\bitmaps\gfxt
+edittag levels\multi\zanzibar\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/zanzibar.dds"
 savetagchanges
 exit
@@ -222,7 +222,7 @@ setfield textures[11].bitmap levels\solo\130_epilogue\bitmaps\gfxt.bitmap
 setfield textures[12].filename 580
 setfield textures[12].bitmap levels\dlc\armory\bitmaps\gfxt.bitmap
 setfield textures[13].filename 410
-setfield textures[13].bitmap levels\dlc\bunkerworld\bunkerworld\gfxt.bitmap
+setfield textures[13].bitmap levels\dlc\bunkerworld\bitmaps\gfxt.bitmap
 setfield textures[14].filename 600
 setfield textures[14].bitmap levels\dlc\chillout\bitmaps\gfxt.bitmap
 setfield textures[15].filename 490
@@ -246,33 +246,33 @@ setfield textures[23].bitmap levels\dlc\spacecamp\bitmaps\gfxt.bitmap
 setfield textures[24].filename 580
 setfield textures[24].bitmap levels\dlc\warehouse\bitmaps\gfxt.bitmap
 setfield textures[25].filename 380
-setfield textures[25].bitmap levels\multi\chill\chill\gfxt.bitmap
+setfield textures[25].bitmap levels\multi\chill\bitmaps\gfxt.bitmap
 setfield textures[26].filename 300
 setfield textures[26].bitmap levels\multi\construct\bitmaps\gfxt.bitmap
 setfield textures[27].filename 390
-setfield textures[27].bitmap levels\multi\cyberdyne\cyberdyne\gfxt.bitmap
+setfield textures[27].bitmap levels\multi\cyberdyne\bitmaps\gfxt.bitmap
 setfield textures[28].filename 310
-setfield textures[28].bitmap levels\multi\deadlock\deadlock\gfxt.bitmap
+setfield textures[28].bitmap levels\multi\deadlock\bitmaps\gfxt.bitmap
 setfield textures[29].filename 320
-setfield textures[29].bitmap levels\multi\guardian\guardian\gfxt.bitmap
+setfield textures[29].bitmap levels\multi\guardian\bitmaps\gfxt.bitmap
 setfield textures[30].filename 330
 setfield textures[30].bitmap levels\multi\isolation\bitmaps\gfxt.bitmap
 setfield textures[31].filename 340
-setfield textures[31].bitmap levels\multi\riverworld\riverworld\gfxt.bitmap
+setfield textures[31].bitmap levels\multi\riverworld\bitmaps\gfxt.bitmap
 setfield textures[32].filename 703
-setfield textures[32].bitmap levels\multi\s3d_edge\s3d_edge\gfxt.bitmap
+setfield textures[32].bitmap levels\multi\s3d_edge\bitmaps\gfxt.bitmap
 setfield textures[33].filename 31
-setfield textures[33].bitmap levels\multi\s3d_turf\s3d_turf\gfxt.bitmap
+setfield textures[33].bitmap levels\multi\s3d_turf\bitmaps\gfxt.bitmap
 setfield textures[34].filename 706
-setfield textures[34].bitmap levels\multi\s3d_waterfall\s3d_waterfall\gfxt.bitmap
+setfield textures[34].bitmap levels\multi\s3d_waterfall\bitmaps\gfxt.bitmap
 setfield textures[34].filename 350
 setfield textures[34].bitmap levels\multi\salvation\bitmaps\gfxt.bitmap
 setfield textures[35].filename 400
-setfield textures[35].bitmap levels\multi\shrine\shrine\gfxt.bitmap
+setfield textures[35].bitmap levels\multi\shrine\bitmaps\gfxt.bitmap
 setfield textures[36].filename 360
 setfield textures[36].bitmap levels\multi\snowbound\bitmaps\gfxt.bitmap
 setfield textures[37].filename 30
-setfield textures[37].bitmap levels\multi\zanzibar\zanzibar\gfxt.bitmap
+setfield textures[37].bitmap levels\multi\zanzibar\bitmaps\gfxt.bitmap
 savetagchanges
 exit
 opencachefile "../H3Maps/mainmenu.map"
