@@ -1,4 +1,4 @@
-opencachefile "../H3Maps/"
+opencachefile "../H3MythicMaps/sandbox.map"
 porttag ui\chud\animations\backpack_test.chud_animation_definition
 porttag ui\chud\animations\backpack_unready.chud_animation_definition
 porttag ui\chud\animations\backpack_warning_flash.chud_animation_definition
@@ -43,13 +43,10 @@ porttag ui\chud\battle_rifle.chud_definition
 porttag ui\chud\beam_rifle.chud_definition
 porttag ui\chud\brute_shot.chud_definition
 porttag ui\chud\carbine.chud_definition
-porttag ui\chud\e_autoturret.chud_definition
 porttag ui\chud\e_bubbleshield.chud_definition
 porttag ui\chud\e_flare.chud_definition
 porttag ui\chud\e_gravlift.chud_definition
 porttag ui\chud\e_instacover.chud_definition
-porttag ui\chud\e_invincibility.chud_definition
-porttag ui\chud\e_invisibility.chud_definition
 porttag ui\chud\e_jammer.chud_definition
 porttag ui\chud\e_powerdrain.chud_definition
 porttag ui\chud\e_regen.chud_definition
@@ -95,6 +92,12 @@ porttag ui\chud\v_scorpionturret.chud_definition
 porttag ui\chud\v_wraith.chud_definition
 porttag ui\chud\v_wraith_anti_air.chud_definition
 porttag ui\chud\v_wraithturret.chud_definition
+exit
+opencachefile "../H3Maps/100_citadel.map"
+porttag ui\chud\e_autoturret.chud_definition
+porttag ui\chud\e_invincibility.chud_definition
+porttag ui\chud\e_invisibility.chud_definition
+exit
 createtag bitm levels\ui\placeholder\placeholder\gfxt
 edittag levels\ui\placeholder\placeholder\gfxt.bitmap
 importbitmap 0 "../DDS/unknown.dds"
@@ -261,7 +264,7 @@ importbitmap 0 "../DDS/H3/s3d_edge.dds"
 savetagchanges
 exit
 createtag bitm levels\multi\s3d_turf\bitmaps\gfxt
-edittag bitm levels\multi\s3d_turf\bitmaps\gfxt.bitmap
+edittag levels\multi\s3d_turf\bitmaps\gfxt.bitmap
 importbitmap 0 "../DDS/H3/s3d_turf.dds"
 savetagchanges
 exit
