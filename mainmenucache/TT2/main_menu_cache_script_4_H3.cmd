@@ -28,8 +28,6 @@ porttag ui\chud\animations\pitch_slide.chud_animation_definition
 porttag ui\chud\animations\shield_dimming.chud_animation_definition
 porttag ui\chud\animations\shields_out.chud_animation_definition
 porttag ui\chud\animations\sniper_slide.chud_animation_definition
-porttag ui\chud\animations\stamina1.chud_animation_definition
-porttag ui\chud\animations\stamina2.chud_animation_definition
 porttag ui\chud\animations\vip_aura_center.chud_animation_definition
 porttag ui\chud\animations\vip_aura_pulsate.chud_animation_definition
 porttag ui\chud\animations\vip_notify.chud_animation_definition
@@ -99,7 +97,6 @@ porttag ui\chud\e_invincibility.chud_definition
 porttag ui\chud\e_invisibility.chud_definition
 exit
 opencachefile "../H3MythicMaps/sandbox.map"
-porttag objects\equipment\autoturret\autoturret_beam.weapon
 porttag objects\levels\dlc\sandbox\sandbox_defender\sandbox_defender.weapon
 porttag objects\levels\dlc\shared\forge_ball\forge_ball.weapon
 porttag objects\levels\dlc\shared\golf_club\golf_club.weapon
@@ -110,7 +107,6 @@ porttag objects\vehicles\ghost\weapon\ghost_gun.weapon
 porttag objects\vehicles\hornet\weapon\hornet_missile.weapon
 porttag objects\vehicles\mauler\anti_infantry\weapon\anti_infantry.weapon
 porttag objects\vehicles\mongoose\weapon\mongoose_horn.weapon
-porttag objects\vehicles\pelican\pelican_rocket_pod\weapon\pelican_rocket_pod.weapon
 porttag objects\vehicles\scorpion\turrets\anti_infantry\weapon\anti_infantry_turret.weapon
 porttag objects\vehicles\scorpion\turrets\cannon\weapon\cannon_turret.weapon
 porttag objects\vehicles\warthog\turrets\chaingun\weapon\chaingun_turret.weapon
@@ -120,7 +116,6 @@ porttag objects\vehicles\wraith\turrets\anti_air\anti_air_turret.weapon
 porttag objects\vehicles\wraith\turrets\anti_infantry\weapon\wraith_anti_infantry_turret.weapon
 porttag objects\vehicles\wraith\turrets\mortar\mortar_turret.weapon
 porttag objects\weapons\melee\energy_blade\energy_blade.weapon
-porttag objects\weapons\melee\energy_blade\energy_blade_useless.weapon
 porttag objects\weapons\melee\gravity_hammer\gravity_hammer.weapon
 porttag objects\weapons\multiplayer\assault_bomb\assault_bomb.weapon
 porttag objects\weapons\multiplayer\ball\ball.weapon
@@ -136,7 +131,6 @@ porttag objects\weapons\rifle\covenant_carbine\covenant_carbine.weapon
 porttag objects\weapons\rifle\plasma_rifle\plasma_rifle.weapon
 porttag objects\weapons\rifle\shotgun\shotgun.weapon
 porttag objects\weapons\rifle\smg\smg.weapon
-porttag objects\weapons\rifle\smg_silenced\smg_silenced.weapon
 porttag objects\weapons\rifle\sniper_rifle\sniper_rifle.weapon
 porttag objects\weapons\rifle\spike_rifle\spike_rifle.weapon
 porttag objects\weapons\support_high\flak_cannon\flak_cannon.weapon
@@ -151,19 +145,19 @@ porttag objects\weapons\turret\missile_pod\missile_pod.weapon
 porttag objects\weapons\turret\plasma_cannon\plasma_cannon.weapon
 porttag objects\weapons\turret\plasma_cannon\plasma_cannon_integrated.weapon
 exit
+opencachefile "../H3Maps/100_citadel.map"
+porttag objects\equipment\autoturret\autoturret_beam.weapon
+porttag objects\vehicles\pelican\pelican_rocket_pod\weapon\pelican_rocket_pod.weapon
+porttag objects\weapons\melee\energy_blade\energy_blade_useless.weapon
+exit
 opencachefile "../H3MythicMaps/sandbox.map"
-porttag objects\equipment\autoturret_equipment\autoturret_equipment.equipment
 porttag objects\equipment\bubbleshield\bubbleshield.equipment
 porttag objects\equipment\bubbleshield_equipment\bubbleshield_equipment.equipment
 porttag objects\equipment\gravlift\gravlift.equipment
 porttag objects\equipment\gravlift_equipment\gravlift_equipment.equipment
 porttag objects\equipment\gravlift_permanent\gravlift_permanent.equipment
-porttag objects\equipment\instantcover\instantcover.equipment
 porttag objects\equipment\instantcover\instantcover_mp.equipment
-porttag objects\equipment\instantcover_equipment\instantcover_equipment.equipment
 porttag objects\equipment\instantcover_equipment\instantcover_equipment_mp.equipment
-porttag objects\equipment\invincibility_equipment\invincibility_equipment.equipment
-porttag objects\equipment\invisibility_equipment\invisibility_equipment.equipment
 porttag objects\equipment\jammer\jammer.equipment
 porttag objects\equipment\jammer_equipment\jammer_equipment.equipment
 porttag objects\equipment\powerdrain\powerdrain.equipment
@@ -186,19 +180,121 @@ porttag objects\weapons\grenade\firebomb_grenade\firebomb_grenade.equipment
 porttag objects\weapons\grenade\frag_grenade\frag_grenade.equipment
 porttag objects\weapons\grenade\plasma_grenade\plasma_grenade.equipment
 exit
+opencachefile "../H3Maps/100_citadel.map"
+porttag objects\equipment\autoturret_equipment\autoturret_equipment.equipment
+porttag objects\equipment\instantcover\instantcover.equipment
+porttag objects\equipment\instantcover_equipment\instantcover_equipment.equipment
+porttag objects\equipment\invincibility_equipment\invincibility_equipment.equipment
+porttag objects\equipment\invisibility_equipment\invisibility_equipment.equipment
+exit
 opencachefile "../H3MythicMaps/sandbox.map"
-porttag objects\equipment\autoturret\autoturret.vehicle
 porttag objects\vehicles\ghost\ghost.vehicle
-porttag objects\vehicles\pelican\pelican.vehicle
-porttag objects\vehicles\pelican\pelican_rocket_pod\pelican_rocket_pod.vehicle
-porttag objects\vehicles\pelican\pelican_rocket_pod02\pelican_rocket_pod02.vehicle
 porttag objects\weapons\turret\machinegun_turret\machinegun_turret.vehicle
 porttag objects\vehicles\warthog\warthog.vehicle
+porttag objects\vehicles\brute_chopper\brute_chopper.vehicle
+porttag objects\vehicles\mongoose\mongoose.vehicle
+exit
+opencachefile "../H3Maps/100_citadel.map"
+porttag objects\vehicles\pelican\pelican.vehicle
 porttag objects\vehicles\warthog\turrets\chaingun\chaingun.vehicle
 porttag objects\vehicles\warthog\turrets\gauss\gauss.vehicle
 porttag objects\vehicles\warthog\turrets\troop\troop.vehicle
-porttag objects\vehicles\brute_chopper\brute_chopper.vehicle
-porttag objects\vehicles\mongoose\mongoose.vehicle
+exit
+opencachefile "../H3MythicMaps/sandbox.map"
+porttag objects\characters\elite\mp_elite\mp_elite.biped
+porttag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
+porttag objects\characters\monitor\monitor_editor.biped
+exit
+opencachefile "../H3Maps/100_citadel.map"
+porttag objects\characters\dervish\dervish.biped
+porttag objects\characters\elite\elite_sp.biped
+porttag objects\characters\masterchief\masterchief.biped
+porttag objects\characters\sentinel_aggressor\sentinel_aggressor.biped
+exit
+opencachefile "../H3MythicMaps/sandbox.map"
+porttag objects\characters\dervish\dervish.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\melee\fp_energy_blade\fp_energy_blade.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\multiplayer\fp_assault_bomb\fp_assault_bomb.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\multiplayer\fp_flag\fp_flag.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\pistol\fp_excavator\fp_excavator.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\pistol\fp_magnum\fp_magnum.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\pistol\fp_needler\fp_needler.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\pistol\fp_plasma_pistol\fp_plasma_pistol.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\rifle\fp_assault_rifle\fp_assault_rifle.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\rifle\fp_beam_rifle\fp_beam_rifle.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\rifle\fp_covenant_carbine\fp_covenant_carbine.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\rifle\fp_plasma_rifle\fp_plasma_rifle.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\rifle\fp_shotgun\fp_shotgun.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\rifle\fp_smg\fp_smg.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\rifle\fp_spike_rifle\fp_spike_rifle.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\support_high\fp_flak_cannon\fp_flak_cannon.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\support_high\fp_rocket_launcher\fp_rocket_launcher.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\support_high\fp_spartan_laser\fp_spartan_laser.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\support_low\fp_brute_shot\fp_brute_shot.model_animation_graph
+porttag objects\characters\dervish\fp\weapons\support_low\fp_sentinel_beam\fp_sentinel_beam.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\melee\fp_energy_blade\fp_energy_blade.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\melee\fp_gravity_hammer\fp_gravity_hammer.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\multiplayer\fp_assault_bomb\fp_assault_bomb.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\multiplayer\fp_flag\fp_flag.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\pistol\fp_excavator\fp_excavator.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\pistol\fp_magnum\fp_magnum.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\pistol\fp_needler\fp_needler.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\pistol\fp_plasma_pistol\fp_plasma_pistol.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\rifle\fp_assault_rifle\fp_assault_rifle.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\rifle\fp_battle_rifle\fp_battle_rifle.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\rifle\fp_beam_rifle\fp_beam_rifle.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\rifle\fp_covenant_carbine\fp_covenant_carbine.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\rifle\fp_plasma_rifle\fp_plasma_rifle.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\rifle\fp_shotgun\fp_shotgun.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\rifle\fp_smg\fp_smg.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\rifle\fp_sniper_rifle\fp_sniper_rifle.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\rifle\fp_spike_rifle\fp_spike_rifle.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\support_high\fp_flak_cannon\fp_flak_cannon.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\support_high\fp_rocket_launcher\fp_rocket_launcher.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\support_high\fp_spartan_laser\fp_spartan_laser.model_animation_graph
+porttag objects\characters\masterchief\fp\weapons\support_low\fp_sentinel_beam\fp_sentinel_beam.model_animation_graph
+porttag objects\characters\masterchief\masterchief.model_animation_graph
+porttag objects\characters\monitor\monitor.model_animation_graph
+porttag objects\equipment\bubbleshield\bubbleshield.model_animation_graph
+porttag objects\equipment\gravlift\gravlift.model_animation_graph
+porttag objects\equipment\instantcover\instantcover.model_animation_graph
+porttag objects\equipment\jammer\jammer.model_animation_graph
+porttag objects\equipment\regenerator\regenerator.model_animation_graph
+porttag objects\equipment\tripmine\tripmine.model_animation_graph
+porttag objects\levels\dlc\shared\golf_club\fp_golf_club\fp_golf_club.model_animation_graph
+porttag objects\vehicles\banshee\banshee.model_animation_graph
+porttag objects\vehicles\brute_chopper\brute_chopper.model_animation_graph
+porttag objects\vehicles\ghost\ghost.model_animation_graph
+porttag objects\vehicles\mongoose\mongoose.model_animation_graph
+porttag objects\vehicles\warthog\turrets\chaingun\chaingun.model_animation_graph
+porttag objects\vehicles\warthog\turrets\gauss\gauss.model_animation_graph
+porttag objects\vehicles\warthog\turrets\troop\troop.model_animation_graph
+porttag objects\vehicles\warthog\warthog.model_animation_graph
+porttag objects\weapons\pistol\magnum\magnum.model_animation_graph
+porttag objects\weapons\pistol\needler\needler.model_animation_graph
+porttag objects\weapons\rifle\assault_rifle\assault_rifle.model_animation_graph
+porttag objects\weapons\rifle\battle_rifle\battle_rifle.model_animation_graph
+porttag objects\weapons\rifle\beam_rifle\beam_rifle.model_animation_graph
+porttag objects\weapons\rifle\plasma_rifle\plasma_rifle.model_animation_graph
+porttag objects\weapons\rifle\shotgun\shotgun.model_animation_graph
+porttag objects\weapons\rifle\smg\smg.model_animation_graph
+porttag objects\weapons\rifle\sniper_rifle\sniper_rifle.model_animation_graph
+porttag objects\weapons\rifle\spike_rifle\spike_rifle.model_animation_graph
+porttag objects\weapons\support_high\rocket_launcher\rocket_launcher.model_animation_graph
+porttag objects\weapons\support_high\spartan_laser\spartan_laser.model_animation_graph
+porttag objects\weapons\turret\flamethrower\flamethrower_weapon\flamethrower_weapon.model_animation_graph
+porttag objects\weapons\turret\machinegun_turret\machinegun_turret_vehicle\machinegun_turret_vehicle.model_animation_graph
+porttag objects\weapons\turret\machinegun_turret\machinegun_turret_weapon\machinegun_turret_weapon.model_animation_graph
+exit
+opencachefile "../H3Maps/100_citadel.map"
+porttag objects\characters\sentinel_aggressor\sentinel_aggressor.model_animation_graph
+porttag objects\equipment\autoturret\autoturret.model_animation_graph
+porttag objects\vehicles\pelican\pelican.model_animation_graph
+porttag objects\vehicles\pelican\pelican_rocket_pod02\pelican_rocket_pod02.model_animation_graph
+porttag objects\vehicles\pelican\pelican_rocket_pod\pelican_rocket_pod.model_animation_graph
 exit
 createtag bitm levels\ui\placeholder\placeholder\gfxt
 edittag levels\ui\placeholder\placeholder\gfxt.bitmap
