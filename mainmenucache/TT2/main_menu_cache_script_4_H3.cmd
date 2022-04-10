@@ -96,6 +96,17 @@ porttag ui\chud\e_autoturret.chud_definition
 porttag ui\chud\e_invincibility.chud_definition
 porttag ui\chud\e_invisibility.chud_definition
 exit
+opencachefile "../H3MythicMaps/sandbox.map"
+porttag objects\characters\elite\mp_elite\mp_elite.biped
+porttag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
+porttag objects\characters\monitor\monitor_editor.biped
+exit
+opencachefile "../H3Maps/100_citadel.map"
+porttag objects\characters\dervish\dervish.biped
+porttag objects\characters\elite\elite_sp.biped
+porttag objects\characters\masterchief\masterchief.biped
+porttag objects\characters\sentinel_aggressor\sentinel_aggressor.biped
+exit
 createtag bitm levels\ui\placeholder\placeholder\gfxt
 edittag levels\ui\placeholder\placeholder\gfxt.bitmap
 importbitmap 0 "../DDS/unknown.dds"
