@@ -1,111 +1,97 @@
-opencachefile "../H3MythicMaps/sandbox.map"
-porttag ui\chud\animations\backpack_test.chud_animation_definition
-porttag ui\chud\animations\backpack_unready.chud_animation_definition
-porttag ui\chud\animations\backpack_warning_flash.chud_animation_definition
-porttag ui\chud\animations\beam_rifle_meter_left.chud_animation_definition
-porttag ui\chud\animations\beam_rifle_meter_right.chud_animation_definition
-porttag ui\chud\animations\carbine_crosshair.chud_animation_definition
-porttag ui\chud\animations\carbine_crosshair2.chud_animation_definition
-porttag ui\chud\animations\center_dimming.chud_animation_definition
-porttag ui\chud\animations\center_hack.chud_animation_definition
-porttag ui\chud\animations\clockwise.chud_animation_definition
-porttag ui\chud\animations\counterclockwise.chud_animation_definition
-porttag ui\chud\animations\ctf_scoreboard.chud_animation_definition
-porttag ui\chud\animations\dimming.chud_animation_definition
-porttag ui\chud\animations\equipment_kablam.chud_animation_definition
-porttag ui\chud\animations\fade_in.chud_animation_definition
-porttag ui\chud\animations\fade_in_slow.chud_animation_definition
-porttag ui\chud\animations\flash_test.chud_animation_definition
-porttag ui\chud\animations\init_wipe_horizontal.chud_animation_definition
-porttag ui\chud\animations\init_wipe_vertical.chud_animation_definition
-porttag ui\chud\animations\laser_charge.chud_animation_definition
-porttag ui\chud\animations\laser_unzoom_level.chud_animation_definition
-porttag ui\chud\animations\laser_zoom_fade_level.chud_animation_definition
-porttag ui\chud\animations\laser_zoom_level.chud_animation_definition
-porttag ui\chud\animations\lock_flash.chud_animation_definition
-porttag ui\chud\animations\motion_tracker_ping.chud_animation_definition
-porttag ui\chud\animations\pitch_slide.chud_animation_definition
-porttag ui\chud\animations\shield_dimming.chud_animation_definition
-porttag ui\chud\animations\shields_out.chud_animation_definition
-porttag ui\chud\animations\sniper_slide.chud_animation_definition
-porttag ui\chud\animations\vip_aura_center.chud_animation_definition
-porttag ui\chud\animations\vip_aura_pulsate.chud_animation_definition
-porttag ui\chud\animations\vip_notify.chud_animation_definition
-porttag ui\chud\animations\vip_notify_text.chud_animation_definition
-porttag ui\chud\animations\vox1.chud_animation_definition
-porttag ui\chud\animations\vox2.chud_animation_definition
-porttag ui\chud\animations\yaw_slide.chud_animation_definition
-porttag ui\chud\animations\zoom_scope.chud_animation_definition
-porttag ui\chud\assault_rifle.chud_definition
-porttag ui\chud\battle_rifle.chud_definition
-porttag ui\chud\beam_rifle.chud_definition
-porttag ui\chud\brute_shot.chud_definition
-porttag ui\chud\carbine.chud_definition
-porttag ui\chud\e_bubbleshield.chud_definition
-porttag ui\chud\e_flare.chud_definition
-porttag ui\chud\e_gravlift.chud_definition
-porttag ui\chud\e_instacover.chud_definition
-porttag ui\chud\e_jammer.chud_definition
-porttag ui\chud\e_powerdrain.chud_definition
-porttag ui\chud\e_regen.chud_definition
-porttag ui\chud\e_tripmine.chud_definition
-porttag ui\chud\elite.chud_definition
-porttag ui\chud\excavator.chud_definition
-porttag ui\chud\flamethrower.chud_definition
-porttag ui\chud\fuel_rod_cannon.chud_definition
-porttag ui\chud\golf_club.chud_definition
-porttag ui\chud\hammer.chud_definition
-porttag ui\chud\machinegun_turret.chud_definition
-porttag ui\chud\magnum.chud_definition
-porttag ui\chud\missile.chud_definition
-porttag ui\chud\monitor.chud_definition
-porttag ui\chud\needler.chud_definition
-porttag ui\chud\plasma_pistol.chud_definition
-porttag ui\chud\plasma_rifle.chud_definition
-porttag ui\chud\plasma_turret.chud_definition
-porttag ui\chud\rocket.chud_definition
-porttag ui\chud\sentinel_beam.chud_definition
-porttag ui\chud\shotgun.chud_definition
-porttag ui\chud\smg.chud_definition
-porttag ui\chud\sniper_rifle.chud_definition
-porttag ui\chud\spartan.chud_definition
-porttag ui\chud\spartan_laser.chud_definition
-porttag ui\chud\spike_rifle.chud_definition
-porttag ui\chud\sword.chud_definition
-porttag ui\chud\t_machinegun.chud_definition
-porttag ui\chud\t_plasmaturret.chud_definition
-porttag ui\chud\unarmed.chud_definition
-porttag ui\chud\v_banshee.chud_definition
-porttag ui\chud\v_chaingun.chud_definition
-porttag ui\chud\v_chopper.chud_definition
-porttag ui\chud\v_driver.chud_definition
-porttag ui\chud\v_gaussturret.chud_definition
-porttag ui\chud\v_ghost.chud_definition
-porttag ui\chud\v_grinderdriver.chud_definition
-porttag ui\chud\v_grinderturret.chud_definition
-porttag ui\chud\v_hornet.chud_definition
-porttag ui\chud\v_mongoose.chud_definition
-porttag ui\chud\v_scorpion.chud_definition
-porttag ui\chud\v_scorpionturret.chud_definition
-porttag ui\chud\v_wraith.chud_definition
-porttag ui\chud\v_wraith_anti_air.chud_definition
-porttag ui\chud\v_wraithturret.chud_definition
+edittag globals\globals.globals
+setfield grenades[0].equipment objects\weapons\grenade\frag_grenade\frag_grenade.eqip
+setfield grenades[0].projectile objects\weapons\grenade\frag_grenade\frag_grenade.proj
+setfield grenades[1].equipment objects\weapons\grenade\plasma_grenade\plasma_grenade.eqip
+setfield grenades[1].projectile objects\weapons\grenade\plasma_grenade\plasma_grenade.proj
+setfield grenades[2].equipment objects\weapons\grenade\claymore_grenade\claymore_grenade.eqip
+setfield grenades[2].projectile objects\weapons\grenade\claymore_grenade\claymore_grenade.proj
+setfield grenades[3].equipment objects\weapons\grenade\firebomb_grenade\firebomb_grenade.eqip
+setfield grenades[3].projectile objects\weapons\grenade\firebomb_grenade\projectiles\firebomb_grenade
+setfield interfacetags[0].singleplayeruiglobals ui\single_player.wgtz
+setfield playerrepresentation[0].firstpersonhands objects\characters\masterchief\fp\fp.mode
+setfield playerrepresentation[0].firstpersonbody objects\characters\masterchief\fp_body\fp_body.mode
+setfield playerrepresentation[0].thirdpersonunit objects\characters\masterchief\masterchief.bipd
+setfield playerrepresentation[0].binocularszoominsound sound\game_sfx\ui\binoculars\binocs_in_click.snd!
+setfield playerrepresentation[0].binocularszoomoutsound sound\game_sfx\ui\binoculars\binocs_out_click.snd!
+setfield playerrepresentation[1].firstpersonhands objects\characters\dervish\fp\fp.mode
+setfield playerrepresentation[1].firstpersonbody objects\characters\dervish\fp_body\fp_body.mode
+setfield playerrepresentation[1].thirdpersonunit objects\characters\dervish\dervish.bipd
+setfield playerrepresentation[1].binocularszoominsound sound\game_sfx\ui\binoculars\binocs_in_click.snd!
+setfield playerrepresentation[1].binocularszoomoutsound sound\game_sfx\ui\binoculars\binocs_out_click.snd!
+setfield playerrepresentation[2].firstpersonhands objects\characters\masterchief\mp_masterchief\fp\fp.mode
+setfield playerrepresentation[2].firstpersonbody objects\characters\masterchief\mp_masterchief\fp_body\fp_body.mode
+setfield playerrepresentation[2].thirdpersonunit objects\characters\masterchief\mp_masterchief\mp_masterchief.bipd
+setfield playerrepresentation[2].binocularszoominsound sound\game_sfx\ui\binoculars\binocs_in_click.snd!
+setfield playerrepresentation[2].binocularszoomoutsound sound\game_sfx\ui\binoculars\binocs_out_click.snd!
+setfield playerrepresentation[3].firstpersonhands objects\characters\elite\mp_elite\fp\fp.mode
+setfield playerrepresentation[3].firstpersonbody objects\characters\elite\mp_elite\fp_body\fp_body.mode
+setfield playerrepresentation[3].thirdpersonunit objects\characters\elite\mp_elite\mp_elite.bipd
+setfield playerrepresentation[3].binocularszoominsound sound\game_sfx\ui\binoculars\binocs_in_click.snd!
+setfield playerrepresentation[3].binocularszoomoutsound sound\game_sfx\ui\binoculars\binocs_out_click.snd!
+setfield playerrepresentation[4].firstpersonhands objects\characters\elite\fp_arms\fp_arms.mode
+setfield playerrepresentation[4].firstpersonbody objects\characters\elite\fp_body\fp_body.mode
+setfield playerrepresentation[4].thirdpersonunit objects\characters\elite\elite_sp.bipd
+setfield playerrepresentation[4].binocularszoominsound sound\game_sfx\ui\binoculars\binocs_in_click.snd!
+setfield playerrepresentation[4].binocularszoomoutsound sound\game_sfx\ui\binoculars\binocs_out_click.snd!
+setfield playerrepresentation[5].thirdpersonunit objects\characters\monitor\monitor_editor.bipd
+savetagchanges
 exit
-opencachefile "../H3Maps/100_citadel.map"
-porttag ui\chud\e_autoturret.chud_definition
-porttag ui\chud\e_invincibility.chud_definition
-porttag ui\chud\e_invisibility.chud_definition
-exit
-opencachefile "../H3MythicMaps/sandbox.map"
-porttag objects\characters\elite\mp_elite\mp_elite.biped
-porttag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
-porttag objects\characters\monitor\monitor_editor.biped
-exit
-opencachefile "../H3Maps/100_citadel.map"
-porttag objects\characters\dervish\dervish.biped
-porttag objects\characters\elite\elite_sp.biped
-porttag objects\characters\masterchief\masterchief.biped
-porttag objects\characters\sentinel_aggressor\sentinel_aggressor.biped
+edittag multiplayer\multiplayer_globals.multiplayer_globals
+universal[0].spartanarmorcustomization[0].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
+universal[0].spartanarmorcustomization[0].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
+universal[0].spartanarmorcustomization[0].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
+universal[0].spartanarmorcustomization[0].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
+universal[0].spartanarmorcustomization[0].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
+universal[0].spartanarmorcustomization[0].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
+universal[0].spartanarmorcustomization[0].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
+universal[0].spartanarmorcustomization[0].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
+universal[0].spartanarmorcustomization[0].permutations[8].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_odst.scen
+universal[0].spartanarmorcustomization[0].permutations[9].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_markv.scen
+universal[0].spartanarmorcustomization[0].permutations[10].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_rogue.scen
+universal[0].spartanarmorcustomization[1].permutations[0].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[1].permutations[1].thirdpersonarmorobject
+universal[0].spartanarmorcustomization[1].permutations[2].thirdpersonarmorobject
+universal[0].spartanarmorcustomization[1].permutations[3].thirdpersonarmorobject
+universal[0].spartanarmorcustomization[1].permutations[4].thirdpersonarmorobject
+universal[0].spartanarmorcustomization[1].permutations[5].thirdpersonarmorobject
+universal[0].spartanarmorcustomization[1].permutations[6].thirdpersonarmorobject
+universal[0].spartanarmorcustomization[1].permutations[7].thirdpersonarmorobject
+universal[0].spartanarmorcustomization[1].permutations[8].thirdpersonarmorobject
+universal[0].spartanarmorcustomization[1].permutations[9].thirdpersonarmorobject
+universal[0].spartanarmorcustomization[1].permutations[10].thirdpersonarmorobject
+universal[0].spartanarmorcustomization[1].permutations[11].thirdpersonarmorobject
+universal[0].spartanarmorcustomization[1].permutations[12].thirdpersonarmorobject
+universal[0].spartanarmorcustomization[2].permutations[0].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[2].permutations[1].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[2].permutations[2].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[2].permutations[3].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[2].permutations[4].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[2].permutations[5].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[2].permutations[6].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[2].permutations[7].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[3].permutations[0].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[3].permutations[1].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[3].permutations[2].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[3].permutations[3].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[3].permutations[4].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[3].permutations[5].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[3].permutations[6].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[3].permutations[7].thirdpersonarmorobject 
+universal[0].spartanarmorcustomization[4].permutations[0].thirdpersonarmorobject 
+universal[0].equipment[0].equipment
+universal[0].equipment[1].equipment
+universal[0].equipment[2].equipment
+universal[0].equipment[3].equipment
+universal[0].equipment[4].equipment
+universal[0].equipment[5].equipment
+universal[0].equipment[6].equipment
+universal[0].equipment[7].equipment
+universal[0].equipment[8].equipment
+universal[0].equipment[9].equipment
+universal[0].equipment[10].equipment
+universal[0].equipment[11].equipment
+universal[0].equipment[12].equipment
+savetagchanges
 exit
 createtag bitm levels\ui\placeholder\placeholder\gfxt
 edittag levels\ui\placeholder\placeholder\gfxt.bitmap
@@ -388,9 +374,4 @@ opencachefile "../H3Maps/mainmenu.map"
 porttag *.scnr
 exit
 updatemapfilesalt "../H3Maps/info"
-edittag globals\globals.globals
-setfield playerrepresentation[0].thirdpersonunit objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
-setfield playerrepresentation[2].thirdpersonunit objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
-savetagchanges
-exit
 quit
