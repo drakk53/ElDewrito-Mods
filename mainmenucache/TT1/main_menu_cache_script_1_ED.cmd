@@ -1649,6 +1649,7 @@ nametag 0x573B levels\multi\s3d_edge\bitmap\gfxt
 nametag 0x573C levels\multi\deadlock\bitmap\gfxt
 nametag 0x573D levels\multi\guardian\bitmap\gfxt
 nametag 0x573E levels\multi\s3d_avalanche\bitmap\gfxt
+nametag 0x15A5 objects\multi\vip\vip_boundary
 deletetag 0x028C
 deletetag 0x0A12
 deletetag 0x0A13
