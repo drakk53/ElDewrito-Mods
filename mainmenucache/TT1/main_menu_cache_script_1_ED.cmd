@@ -1701,12 +1701,12 @@ savetagchanges
 exit
 edittag 0x0016
 setfield materials[237].materialeffects 0x020C
-setfield materials[237].soundsweetnersmall 0x0209
-setfield materials[237].soundsweetnermedium 0x020A
-setfield materials[237].soundsweetnerlarge 0x020A
-setfield materials[237].soundsweetnermeleesmall 0x020A
-setfield materials[237].soundsweetnermeleemedium 0x020A
-setfield materials[237].soundsweetnermeleelarge 0x020A
+setfield materials[237].soundsweetenersmall 0x0209
+setfield materials[237].soundsweetenermedium 0x020A
+setfield materials[237].soundsweetenerlarge 0x020A
+setfield materials[237].soundsweetenermeleesmall 0x020A
+setfield materials[237].soundsweetenermeleemedium 0x020A
+setfield materials[237].soundsweetenermeleelarge 0x020A
 savetagchanges
 exit
 edittag 0x025A
