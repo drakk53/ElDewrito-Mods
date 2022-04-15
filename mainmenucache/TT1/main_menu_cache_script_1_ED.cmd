@@ -1650,6 +1650,7 @@ nametag 0x573C levels\multi\deadlock\bitmap\gfxt
 nametag 0x573D levels\multi\guardian\bitmap\gfxt
 nametag 0x573E levels\multi\s3d_avalanche\bitmap\gfxt
 nametag 0x15A5 objects\multi\vip\vip_boundary
+deletetag 0x028A
 deletetag 0x028C
 deletetag 0x0A12
 deletetag 0x0A13
@@ -1700,6 +1701,12 @@ savetagchanges
 exit
 edittag 0x0016
 setfield materials[237].materialeffects 0x020C
+setfield materials[237].soundsweetnersmall 0x0209
+setfield materials[237].soundsweetnermedium 0x020A
+setfield materials[237].soundsweetnerlarge 0x020A
+setfield materials[237].soundsweetnermeleesmall 0x020A
+setfield materials[237].soundsweetnermeleemedium 0x020A
+setfield materials[237].soundsweetnermeleelarge 0x020A
 savetagchanges
 exit
 edittag 0x025A
