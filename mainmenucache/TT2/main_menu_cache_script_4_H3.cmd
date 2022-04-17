@@ -37,6 +37,67 @@ porttag ui\chud\animations\vox2.chud_animation_definition
 porttag ui\chud\animations\yaw_slide.chud_animation_definition
 porttag ui\chud\animations\zoom_scope.chud_animation_definition
 exit
+opencachefile "../H3MythicMaps/sandbox.map"
+porttag ui\chud\assault_rifle.chud_definition
+porttag ui\chud\battle_rifle.chud_definition
+porttag ui\chud\beam_rifle.chud_definition
+porttag ui\chud\brute_shot.chud_definition
+porttag ui\chud\carbine.chud_definition
+porttag ui\chud\e_bubbleshield.chud_definition
+porttag ui\chud\e_flare.chud_definition
+porttag ui\chud\e_gravlift.chud_definition
+porttag ui\chud\e_instacover.chud_definition
+porttag ui\chud\e_jammer.chud_definition
+porttag ui\chud\e_powerdrain.chud_definition
+porttag ui\chud\e_regen.chud_definition
+porttag ui\chud\e_tripmine.chud_definition
+porttag ui\chud\elite.chud_definition
+porttag ui\chud\excavator.chud_definition
+porttag ui\chud\flamethrower.chud_definition
+porttag ui\chud\fuel_rod_cannon.chud_definition
+porttag ui\chud\golf_club.chud_definition
+porttag ui\chud\hammer.chud_definition
+porttag ui\chud\machinegun_turret.chud_definition
+porttag ui\chud\magnum.chud_definition
+porttag ui\chud\missile.chud_definition
+porttag ui\chud\monitor.chud_definition
+porttag ui\chud\needler.chud_definition
+porttag ui\chud\plasma_pistol.chud_definition
+porttag ui\chud\plasma_rifle.chud_definition
+porttag ui\chud\plasma_turret.chud_definition
+porttag ui\chud\rocket.chud_definition
+porttag ui\chud\sentinel_beam.chud_definition
+porttag ui\chud\shotgun.chud_definition
+porttag ui\chud\smg.chud_definition
+porttag ui\chud\sniper_rifle.chud_definition
+porttag ui\chud\spartan.chud_definition
+porttag ui\chud\spartan_laser.chud_definition
+porttag ui\chud\spike_rifle.chud_definition
+porttag ui\chud\sword.chud_definition
+porttag ui\chud\t_machinegun.chud_definition
+porttag ui\chud\t_plasmaturret.chud_definition
+porttag ui\chud\unarmed.chud_definition
+porttag ui\chud\v_banshee.chud_definition
+porttag ui\chud\v_chaingun.chud_definition
+porttag ui\chud\v_chopper.chud_definition
+porttag ui\chud\v_driver.chud_definition
+porttag ui\chud\v_gaussturret.chud_definition
+porttag ui\chud\v_ghost.chud_definition
+porttag ui\chud\v_grinderdriver.chud_definition
+porttag ui\chud\v_grinderturret.chud_definition
+porttag ui\chud\v_hornet.chud_definition
+porttag ui\chud\v_mongoose.chud_definition
+porttag ui\chud\v_scorpion.chud_definition
+porttag ui\chud\v_scorpionturret.chud_definition
+porttag ui\chud\v_wraith.chud_definition
+porttag ui\chud\v_wraith_anti_air.chud_definition
+porttag ui\chud\v_wraithturret.chud_definition
+exit
+opencachefile "../H3Maps/100_citadel.map"
+porttag ui\chud\e_autoturret.chud_definition
+porttag ui\chud\e_invincibility.chud_definition
+porttag ui\chud\e_invisibility.chud_definition
+exit
 opencachefile "../H3Maps/100_citadel.map"
 porttag ui\single_player.wgtz
 porttag objects\characters\dervish\fp\fp.mode
@@ -58,12 +119,6 @@ porttag objects\characters\masterchief\mp_masterchief\fp_body\fp_body.mode
 porttag objects\characters\masterchief\mp_masterchief\mp_masterchief.bipd
 porttag objects\characters\monitor\monitor_editor.bipd
 exit
-opencachefile "../H3Maps/100_citadel.map"
-porttag objects\equipment\autoturret_equipment\autoturret_equipment.eqip
-porttag objects\equipment\instantcover_equipment\instantcover_equipment.eqip
-porttag objects\equipment\invincibility_equipment\invincibility_equipment.eqip
-porttag objects\equipment\invisibility_equipment\invisibility_equipment.eqip
-exit
 opencachefile "../H3MythicMaps/sandbox.map"
 porttag objects\ui\editor_gizmo\editor_gizmo.scen
 porttag objects\multi\vip\vip_boundary.bloc
@@ -75,14 +130,6 @@ porttag objects\weapons\grenade\frag_grenade\frag_grenade.proj
 porttag objects\weapons\grenade\frag_grenade\frag_grenade.eqip
 porttag objects\weapons\grenade\plasma_grenade\plasma_grenade.proj
 porttag objects\weapons\grenade\plasma_grenade\plasma_grenade.eqip
-porttag objects\equipment\bubbleshield_equipment\bubbleshield_equipment.eqip
-porttag objects\equipment\gravlift_equipment\gravlift_equipment.eqip
-porttag objects\equipment\instantcover_equipment\instantcover_equipment_mp.eqip
-porttag objects\equipment\jammer_equipment\jammer_equipment.eqip
-porttag objects\equipment\powerdrain_equipment\powerdrain_equipment.eqip
-porttag objects\equipment\regenerator_equipment\regenerator_equipment.eqip
-porttag objects\equipment\superflare_equipment\superflare_equipment.eqip
-porttag objects\equipment\tripmine_equipment\tripmine_equipment.eqip
 porttag objects\weapons\melee\energy_blade\energy_blade.weap
 porttag objects\weapons\melee\energy_blade\energy_blade_useless.weap
 porttag objects\weapons\melee\gravity_hammer\gravity_hammer.weap
@@ -107,6 +154,22 @@ porttag objects\weapons\support_high\spartan_laser\spartan_laser.weap
 porttag objects\weapons\support_low\brute_shot\brute_shot.weap
 porttag objects\weapons\turret\flamethrower\flamethrower.weap
 porttag objects\weapons\turret\missile_pod\missile_pod.weap
+exit
+opencachefile "../H3Maps/100_citadel.map"
+porttag objects\equipment\autoturret_equipment\autoturret_equipment.eqip
+porttag objects\equipment\instantcover_equipment\instantcover_equipment.eqip
+porttag objects\equipment\invincibility_equipment\invincibility_equipment.eqip
+porttag objects\equipment\invisibility_equipment\invisibility_equipment.eqip
+exit
+opencachefile "../H3MythicMaps/sandbox.map"
+porttag objects\equipment\bubbleshield_equipment\bubbleshield_equipment.eqip
+porttag objects\equipment\gravlift_equipment\gravlift_equipment.eqip
+porttag objects\equipment\instantcover_equipment\instantcover_equipment_mp.eqip
+porttag objects\equipment\jammer_equipment\jammer_equipment.eqip
+porttag objects\equipment\powerdrain_equipment\powerdrain_equipment.eqip
+porttag objects\equipment\regenerator_equipment\regenerator_equipment.eqip
+porttag objects\equipment\superflare_equipment\superflare_equipment.eqip
+porttag objects\equipment\tripmine_equipment\tripmine_equipment.eqip
 exit
 edittag globals\globals.globals
 setfield grenades[0].equipment objects\weapons\grenade\frag_grenade\frag_grenade.eqip

@@ -2,9 +2,11 @@
 ECHO Initializng Main Menu Cache Script....
 ECHO 1.Rebuild from 0.6/ED Cache
 ECHO 2.Rebuild from Another Cache
+ECHO 3.Skip Rebuild (Assumes you already have a rebuilt cache)
 ECHO.
 
-CHOICE /C 12 /M "Enter your choice:"
+CHOICE /C 123 /M "Enter your choice:"
+IF ERRORLEVEL 3 GOTO SKIP
 IF ERRORLEVEL 2 GOTO MMC
 IF ERRORLEVEL 1 GOTO 0.6
 
@@ -40,6 +42,7 @@ cd ../ED/fonts
 COPY font_package.bin "../../MM/fonts"
 ECHO Done!
 
+:SKIP
 ECHO What Main Menu Would You Like to Port?
 ECHO 1.Halo 3 Main Menu
 ECHO 2.Halo 3 Mythic Main Menu
@@ -57,13 +60,11 @@ IF ERRORLEVEL 1 GOTO H3
 
 :H3
 ECHO Porting Halo 3 Main Menu....
-cd ../../TT1
+cd ../../TT2
 Type main_menu_cache_script_4_H3.cmd | TagTool.exe ../MM/tags.dat
-cd ../TT2
-Type main_menu_cache_script_5_H3.cmd | TagTool.exe ../MM/tags.dat
 ECHO Applying Patches....
 cd ../TT1
-Type main_menu_cache_script_6_H3.cmd | TagTool.exe ../MM/tags.dat
+Type main_menu_cache_script_5_H3.cmd | TagTool.exe ../MM/tags.dat
 GOTO END
 
 :H3M
