@@ -108,91 +108,91 @@ setfield playerrepresentation[5].thirdpersonunit objects\characters\monitor\moni
 savetagchanges
 exit
 edittag multiplayer\multiplayer_globals.multiplayer_globals
-universal[0].spartanarmorcustomization[0].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
-universal[0].spartanarmorcustomization[0].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
-universal[0].spartanarmorcustomization[0].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
-universal[0].spartanarmorcustomization[0].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
-universal[0].spartanarmorcustomization[0].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
-universal[0].spartanarmorcustomization[0].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
-universal[0].spartanarmorcustomization[0].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
-universal[0].spartanarmorcustomization[0].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
-universal[0].spartanarmorcustomization[0].permutations[8].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_odst.scen
-universal[0].spartanarmorcustomization[0].permutations[9].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_markv.scen
-universal[0].spartanarmorcustomization[0].permutations[10].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_rogue.scen
-universal[0].spartanarmorcustomization[1].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
-universal[0].spartanarmorcustomization[1].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
-universal[0].spartanarmorcustomization[1].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
-universal[0].spartanarmorcustomization[1].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
-universal[0].spartanarmorcustomization[1].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
-universal[0].spartanarmorcustomization[1].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
-universal[0].spartanarmorcustomization[1].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
-universal[0].spartanarmorcustomization[1].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
-universal[0].spartanarmorcustomization[1].permutations[8].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_odst.scen
-universal[0].spartanarmorcustomization[1].permutations[9].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_markv.scen
-universal[0].spartanarmorcustomization[1].permutations[10].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_rogue.scen
-universal[0].spartanarmorcustomization[1].permutations[11].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_bungie.scen
-universal[0].spartanarmorcustomization[1].permutations[12].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_katana.scen
-universal[0].spartanarmorcustomization[2].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
-universal[0].spartanarmorcustomization[2].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
-universal[0].spartanarmorcustomization[2].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
-universal[0].spartanarmorcustomization[2].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
-universal[0].spartanarmorcustomization[2].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
-universal[0].spartanarmorcustomization[2].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
-universal[0].spartanarmorcustomization[2].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
-universal[0].spartanarmorcustomization[2].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
-universal[0].spartanarmorcustomization[3].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
-universal[0].spartanarmorcustomization[3].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
-universal[0].spartanarmorcustomization[3].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
-universal[0].spartanarmorcustomization[3].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
-universal[0].spartanarmorcustomization[3].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
-universal[0].spartanarmorcustomization[3].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
-universal[0].spartanarmorcustomization[3].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
-universal[0].spartanarmorcustomization[3].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
-universal[0].spartanarmorcustomization[4].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
-universal[0].equipment[0].equipment null
-universal[0].equipment[1].equipment objects\equipment\jammer_equipment\jammer_equipment.eqip
-universal[0].equipment[2].equipment objects\equipment\powerdrain_equipment\powerdrain_equipment.eqip
-universal[0].equipment[3].equipment objects\equipment\bubbleshield_equipment\bubbleshield_equipment.eqip
-universal[0].equipment[4].equipment objects\equipment\superflare_equipment\superflare_equipment.eqip
-universal[0].equipment[5].equipment objects\equipment\regenerator_equipment\regenerator_equipment.eqip
-universal[0].equipment[6].equipment objects\equipment\tripmine_equipment\tripmine_equipment.eqip
-universal[0].equipment[7].equipment objects\equipment\instantcover_equipment\instantcover_equipment_mp.eqip
-universal[0].equipment[8].equipment objects\equipment\invincibility_equipment\invincibility_equipment.eqip
-universal[0].equipment[9].equipment objects\equipment\gravlift_equipment\gravlift_equipment.eqip
-universal[0].equipment[10].equipment objects\equipment\autoturret_equipment\autoturret_equipment.eqip
-universal[0].equipment[11].equipment objects\equipment\invisibility_equipment\invisibility_equipment.eqip
-universal[0].equipment[12].equipment objects\equipment\instantcover_equipment\instantcover_equipment.eqip
-universal[0].gamevariantweapons[0].weapon objects\weapons\rifle\battle_rifle\battle_rifle.weap
-universal[0].gamevariantweapons[1].weapon objects\weapons\rifle\assault_rifle\assault_rifle.weap
-universal[0].gamevariantweapons[2].weapon objects\weapons\pistol\plasma_pistol\plasma_pistol.weap
-universal[0].gamevariantweapons[3].weapon objects\weapons\rifle\spike_rifle\spike_rifle.weap
-universal[0].gamevariantweapons[4].weapon objects\weapons\rifle\smg\smg.weap
-universal[0].gamevariantweapons[5].weapon objects\weapons\rifle\covenant_carbine\covenant_carbine.weap
-universal[0].gamevariantweapons[6].weapon objects\weapons\melee\energy_blade\energy_blade.weap
-universal[0].gamevariantweapons[7].weapon objects\weapons\pistol\magnum\magnum.weap
-universal[0].gamevariantweapons[8].weapon objects\weapons\pistol\needler\needler.weap
-universal[0].gamevariantweapons[9].weapon objects\weapons\rifle\plasma_rifle\plasma_rifle.weap
-universal[0].gamevariantweapons[10].weapon objects\weapons\support_high\rocket_launcher\rocket_launcher.weap
-universal[0].gamevariantweapons[11].weapon objects\weapons\rifle\shotgun\shotgun.weap
-universal[0].gamevariantweapons[12].weapon objects\weapons\rifle\sniper_rifle\sniper_rifle.weap
-universal[0].gamevariantweapons[13].weapon objects\weapons\support_low\brute_shot\brute_shot.weap
-universal[0].gamevariantweapons[14].weapon objects\weapons\melee\energy_blade\energy_blade_useless.weap
-universal[0].gamevariantweapons[15].weapon objects\weapons\rifle\beam_rifle\beam_rifle.weap
-universal[0].gamevariantweapons[16].weapon objects\weapons\support_high\spartan_laser\spartan_laser.weap
-universal[0].gamevariantweapons[17].weapon null
-universal[0].gamevariantweapons[18].weapon objects\weapons\melee\gravity_hammer\gravity_hammer.weap
-universal[0].gamevariantweapons[19].weapon objects\weapons\pistol\excavator\excavator.weap
-universal[0].gamevariantweapons[20].weapon objects\weapons\turret\flamethrower\flamethrower.weap
-universal[0].gamevariantweapons[21].weapon objects\weapons\turret\missile_pod\missile_pod.weap
-universal[0].gamevariantequipment[0].grenade objects\weapons\grenade\frag_grenade\frag_grenade.eqip.weap
-universal[0].gamevariantequipment[1].grenade objects\weapons\grenade\plasma_grenade\plasma_grenade.eqip.weap
-runtime[0].sandboxeditorunit objects\characters\monitor\monitor_editor.bipd
-runtime[0].sandboxeditorobject objects\ui\editor_gizmo\editor_gizmo.scen
-runtime[0].flag objects\weapons\multiplayer\flag\flag.weap
-runtime[0].ball objects\weapons\multiplayer\ball\ball.weap
-runtime[0].bomb objects\weapons\multiplayer\assault_bomb\assault_bomb.weap
-runtime[0].vipzone objects\multi\vip\vip_boundary.weap
-runtime[0].unknown objects\weapons\grenade\plasma_grenade\plasma_grenade.proj
+setfield universal[0].spartanarmorcustomization[0].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[8].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_odst.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[9].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_markv.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[10].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_rogue.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[8].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_odst.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[9].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_markv.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[10].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_rogue.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[11].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_bungie.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[12].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_katana.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
+setfield universal[0].spartanarmorcustomization[4].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
+setfield universal[0].equipment[0].equipment null
+setfield universal[0].equipment[1].equipment objects\equipment\jammer_equipment\jammer_equipment.eqip
+setfield universal[0].equipment[2].equipment objects\equipment\powerdrain_equipment\powerdrain_equipment.eqip
+setfield universal[0].equipment[3].equipment objects\equipment\bubbleshield_equipment\bubbleshield_equipment.eqip
+setfield universal[0].equipment[4].equipment objects\equipment\superflare_equipment\superflare_equipment.eqip
+setfield universal[0].equipment[5].equipment objects\equipment\regenerator_equipment\regenerator_equipment.eqip
+setfield universal[0].equipment[6].equipment objects\equipment\tripmine_equipment\tripmine_equipment.eqip
+setfield universal[0].equipment[7].equipment objects\equipment\instantcover_equipment\instantcover_equipment_mp.eqip
+setfield universal[0].equipment[8].equipment objects\equipment\invincibility_equipment\invincibility_equipment.eqip
+setfield universal[0].equipment[9].equipment objects\equipment\gravlift_equipment\gravlift_equipment.eqip
+setfield universal[0].equipment[10].equipment objects\equipment\autoturret_equipment\autoturret_equipment.eqip
+setfield universal[0].equipment[11].equipment objects\equipment\invisibility_equipment\invisibility_equipment.eqip
+setfield universal[0].equipment[12].equipment objects\equipment\instantcover_equipment\instantcover_equipment.eqip
+setfield universal[0].gamevariantweapons[0].weapon objects\weapons\rifle\battle_rifle\battle_rifle.weap
+setfield universal[0].gamevariantweapons[1].weapon objects\weapons\rifle\assault_rifle\assault_rifle.weap
+setfield universal[0].gamevariantweapons[2].weapon objects\weapons\pistol\plasma_pistol\plasma_pistol.weap
+setfield universal[0].gamevariantweapons[3].weapon objects\weapons\rifle\spike_rifle\spike_rifle.weap
+setfield universal[0].gamevariantweapons[4].weapon objects\weapons\rifle\smg\smg.weap
+setfield universal[0].gamevariantweapons[5].weapon objects\weapons\rifle\covenant_carbine\covenant_carbine.weap
+setfield universal[0].gamevariantweapons[6].weapon objects\weapons\melee\energy_blade\energy_blade.weap
+setfield universal[0].gamevariantweapons[7].weapon objects\weapons\pistol\magnum\magnum.weap
+setfield universal[0].gamevariantweapons[8].weapon objects\weapons\pistol\needler\needler.weap
+setfield universal[0].gamevariantweapons[9].weapon objects\weapons\rifle\plasma_rifle\plasma_rifle.weap
+setfield universal[0].gamevariantweapons[10].weapon objects\weapons\support_high\rocket_launcher\rocket_launcher.weap
+setfield universal[0].gamevariantweapons[11].weapon objects\weapons\rifle\shotgun\shotgun.weap
+setfield universal[0].gamevariantweapons[12].weapon objects\weapons\rifle\sniper_rifle\sniper_rifle.weap
+setfield universal[0].gamevariantweapons[13].weapon objects\weapons\support_low\brute_shot\brute_shot.weap
+setfield universal[0].gamevariantweapons[14].weapon objects\weapons\melee\energy_blade\energy_blade_useless.weap
+setfield universal[0].gamevariantweapons[15].weapon objects\weapons\rifle\beam_rifle\beam_rifle.weap
+setfield universal[0].gamevariantweapons[16].weapon objects\weapons\support_high\spartan_laser\spartan_laser.weap
+setfield universal[0].gamevariantweapons[17].weapon null
+setfield universal[0].gamevariantweapons[18].weapon objects\weapons\melee\gravity_hammer\gravity_hammer.weap
+setfield universal[0].gamevariantweapons[19].weapon objects\weapons\pistol\excavator\excavator.weap
+setfield universal[0].gamevariantweapons[20].weapon objects\weapons\turret\flamethrower\flamethrower.weap
+setfield universal[0].gamevariantweapons[21].weapon objects\weapons\turret\missile_pod\missile_pod.weap
+setfield universal[0].gamevariantequipment[0].grenade objects\weapons\grenade\frag_grenade\frag_grenade.eqip.weap
+setfield universal[0].gamevariantequipment[1].grenade objects\weapons\grenade\plasma_grenade\plasma_grenade.eqip.weap
+setfield runtime[0].sandboxeditorunit objects\characters\monitor\monitor_editor.bipd
+setfield runtime[0].sandboxeditorobject objects\ui\editor_gizmo\editor_gizmo.scen
+setfield runtime[0].flag objects\weapons\multiplayer\flag\flag.weap
+setfield runtime[0].ball objects\weapons\multiplayer\ball\ball.weap
+setfield runtime[0].bomb objects\weapons\multiplayer\assault_bomb\assault_bomb.weap
+setfield runtime[0].vipzone objects\multi\vip\vip_boundary.weap
+setfield runtime[0].unknown objects\weapons\grenade\plasma_grenade\plasma_grenade.proj
 savetagchanges
 exit
 createtag bitm levels\ui\placeholder\placeholder\gfxt
