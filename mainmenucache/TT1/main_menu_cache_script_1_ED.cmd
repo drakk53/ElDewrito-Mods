@@ -1728,14 +1728,14 @@ setfield gameenginesettings[0].options[4].valuepairs 0x0BAB
 savetagchanges
 exit
 edittag 0x09F6
-setfield ambientfocused 0x086C
-setfield ambientunfocused 0x086C
+setfield unknown 0x086C
+setfield unknown2 0x086C
 savetagchanges
 exit
 edittag 0x0A88
-setfield bitmapwidgets[0].definition.bitmap 0x08BE
-setfield bitmapwidgets[1].definition.bitmap 0x08BE
-setfield bitmapwidgets[19].definition.bitmap 0x08BE
+setfield bitmapwidgets[0].bitmap 0x08BE
+setfield bitmapwidgets[1].bitmap 0x08BE
+setfield bitmapwidgets[19].bitmap 0x08BE
 savetagchanges
 exit
 edittag 0x028E
