@@ -293,7 +293,7 @@ setfield runtime[0].editorhelperobject objects\ui\editor_gizmo\editor_gizmo.scen
 setfield runtime[0].flag objects\weapons\multiplayer\flag\flag.weap
 setfield runtime[0].ball objects\weapons\multiplayer\ball\ball.weap
 setfield runtime[0].bomb objects\weapons\multiplayer\assault_bomb\assault_bomb.weap
-setfield runtime[0].vipinfluencearea objects\multi\vip\vip_boundary.weap
+setfield runtime[0].vipinfluencearea objects\multi\vip\vip_boundary.bloc
 setfield runtime[0].unknown objects\weapons\grenade\plasma_grenade\plasma_grenade.proj
 savetagchanges
 exit
