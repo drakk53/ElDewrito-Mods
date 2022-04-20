@@ -148,7 +148,11 @@ porttag objects\weapons\rifle\plasma_rifle\plasma_rifle.weap
 porttag objects\weapons\rifle\shotgun\shotgun.weap
 porttag objects\weapons\rifle\smg\smg.weap
 porttag objects\weapons\rifle\sniper_rifle\sniper_rifle.weap
+exit
+opencachefile "../H3ODSTMaps/h100.map"
 porttag objects\weapons\rifle\spike_rifle\spike_rifle.weap
+exit
+opencachefile "../H3MythicMaps/sandbox.map"
 porttag objects\weapons\support_high\rocket_launcher\rocket_launcher.weap
 porttag objects\weapons\support_high\spartan_laser\spartan_laser.weap
 porttag objects\weapons\support_low\brute_shot\brute_shot.weap
@@ -156,7 +160,6 @@ porttag objects\weapons\turret\flamethrower\flamethrower.weap
 porttag objects\weapons\turret\missile_pod\missile_pod.weap
 exit
 opencachefile "../H3Maps/100_citadel.map"
-porttag objects\equipment\autoturret_equipment\autoturret_equipment.eqip
 porttag objects\equipment\instantcover_equipment\instantcover_equipment.eqip
 porttag objects\equipment\invincibility_equipment\invincibility_equipment.eqip
 porttag objects\equipment\invisibility_equipment\invisibility_equipment.eqip
@@ -170,6 +173,9 @@ porttag objects\equipment\powerdrain_equipment\powerdrain_equipment.eqip
 porttag objects\equipment\regenerator_equipment\regenerator_equipment.eqip
 porttag objects\equipment\superflare_equipment\superflare_equipment.eqip
 porttag objects\equipment\tripmine_equipment\tripmine_equipment.eqip
+exit
+opencachefile "../H3Maps/100_citadel.map"
+porttag objects\equipment\autoturret_equipment\autoturret_equipment.eqip
 exit
 edittag globals\globals.globals
 setfield grenades[0].equipment objects\weapons\grenade\frag_grenade\frag_grenade.eqip
