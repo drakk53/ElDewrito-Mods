@@ -174,7 +174,7 @@ porttag objects\equipment\regenerator_equipment\regenerator_equipment.eqip
 porttag objects\equipment\superflare_equipment\superflare_equipment.eqip
 porttag objects\equipment\tripmine_equipment\tripmine_equipment.eqip
 exit
-opencachefile "../H3Maps/100_citadel.map"
+opencachefile "../H3Maps/120_halo.map"
 porttag objects\equipment\autoturret_equipment\autoturret_equipment.eqip
 exit
 edittag globals\globals.globals
