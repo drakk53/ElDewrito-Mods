@@ -98,6 +98,9 @@ porttag ui\chud\e_autoturret.chud_definition
 porttag ui\chud\e_invincibility.chud_definition
 porttag ui\chud\e_invisibility.chud_definition
 exit
+opencachefile "../H3Maps/shrine.map"
+porttag single objects\characters\masterchief\masterchief.jmad
+exit
 opencachefile "../H3Maps/100_citadel.map"
 porttag ui\single_player.wgtz
 porttag objects\characters\dervish\fp\fp.mode
