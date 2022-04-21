@@ -63,5 +63,7 @@ porttag replace single ui\chud\e_autoturret.chud_definition
 porttag replace single ui\chud\e_invincibility.chud_definition
 porttag replace single ui\chud\e_invisibility.chud_definition
 exit
+opencachefile "../H3Maps/100_citadel.map"
+porttag replace single ui\chud\globals.chud_globals_definition
 savetagnames
 quit
