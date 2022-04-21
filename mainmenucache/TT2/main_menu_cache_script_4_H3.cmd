@@ -1,3 +1,12 @@
+opencachefile "../H3Maps/mainmenu.map"
+porttag replace ui\main_menu.wtgz
+exit
+opencachefile "../H3Maps/shrine.map"
+porttag replace ui\multiplayer.wtgz
+exit
+opencachefile "../H3Maps/100_citadel.map"
+porttag ui\single_player.wgtz
+exit
 opencachefile "../H3MythicMaps/sandbox.map"
 porttag ui\chud\animations\backpack_test.chud_animation_definition
 porttag ui\chud\animations\backpack_unready.chud_animation_definition
@@ -102,7 +111,6 @@ opencachefile "../H3Maps/shrine.map"
 porttag single objects\characters\masterchief\masterchief.jmad
 exit
 opencachefile "../H3Maps/100_citadel.map"
-porttag ui\single_player.wgtz
 porttag objects\characters\dervish\fp\fp.mode
 porttag objects\characters\dervish\fp_body\fp_body.mode
 porttag objects\characters\dervish\dervish.bipd
