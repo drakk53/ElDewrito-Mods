@@ -1,9 +1,3 @@
-opencachefile "../H3Maps/mainmenu.map"
-porttag replace ui\main_menu.wtgz
-exit
-opencachefile "../H3Maps/shrine.map"
-porttag replace ui\multiplayer.wtgz
-exit
 opencachefile "../H3Maps/100_citadel.map"
 porttag ui\single_player.wgtz
 exit
@@ -595,4 +589,8 @@ opencachefile "../H3Maps/mainmenu.map"
 porttag *.scnr
 exit
 updatemapfilesalt "../H3Maps/info"
+edittag ui\halox\main_menu\main_menu.gui_screen_widget_definition
+setfield scriptindex 47
+savetagchanges
+exit
 quit
