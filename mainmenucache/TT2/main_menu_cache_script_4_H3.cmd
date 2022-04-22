@@ -619,4 +619,29 @@ setfield elements[4].stringidvalues[0].value theater
 setfield elements[5].stringidvalues[0].value exit
 savetagchanges
 exit
+edittag ui\halox\start_menu\panes\hq\sidebar_items.gui_datasource_definition
+removeblockelements elements 0
+removeblockelements elements 3
+removeblockelements elements 3
+savetagchanges
+exit
+edittag ui\halox\start_menu\panes\settings\sidebar_items.gui_datasource_definition
+addblockelements elements 1
+editblock elements[1]
+addblockelements stringidvalues 1
+editblock stringidvalues[0]
+setfield name name
+setfield value settings
+exit
+exit
+addblockelements elements 1
+editblock elements[2]
+addblockelements stringidvalues 1
+editblock stringidvalues[0]
+setfield name name
+setfield value display_settings
+exit
+exit
+savetagchanges
+exit
 quit
