@@ -609,4 +609,13 @@ edittag ui\halox\pregame_lobby\pregame_lobby_theater.gui_screen_widget_definitio
 setfield scriptindex 53
 savetagchanges
 exit
+edittag ui\halox\main_menu\main_menu_list.gui_datasource_definition
+setfield elements[0].stringidvalues[0].value server_browser
+setfield elements[1].stringidvalues[0].value campaign
+setfield elements[2].stringidvalues[0].value multiplayer
+setfield elements[3].stringidvalues[0].value mapeditor
+setfield elements[4].stringidvalues[0].value theater
+setfield elements[5].stringidvalues[0].value exit
+savetagchanges
+exit
 quit
