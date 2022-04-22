@@ -101,8 +101,9 @@ porttag ui\chud\e_autoturret.chud_definition
 porttag ui\chud\e_invincibility.chud_definition
 porttag ui\chud\e_invisibility.chud_definition
 exit
-opencachefile "../H3Maps/shrine.map"
-porttag single objects\characters\masterchief\masterchief.jmad
+opencachefile "../H3Maps/mainmenu.map"
+porttag objects\characters\masterchief\masterchief.jmad
+porttag objects\characters\dervish\dervish.jmad
 exit
 opencachefile "../H3Maps/100_citadel.map"
 porttag objects\characters\dervish\fp\fp.mode
