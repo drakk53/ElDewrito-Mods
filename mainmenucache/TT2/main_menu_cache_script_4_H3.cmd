@@ -593,4 +593,20 @@ edittag ui\halox\main_menu\main_menu.gui_screen_widget_definition
 setfield scriptindex 47
 savetagchanges
 exit
+edittag ui\halox\pregame_lobby\pregame_lobby_campaign.gui_screen_widget_definition
+setfield scriptindex 48
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\pregame_lobby_multiplayer.gui_screen_widget_definition
+setfield scriptindex 50
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\pregame_lobby_mapeditor.gui_screen_widget_definition
+setfield scriptindex 52
+savetagchanges
+exit
+edittag ui\halox\pregame_lobby\pregame_lobby_theater.gui_screen_widget_definition
+setfield scriptindex 53
+savetagchanges
+exit
 quit
