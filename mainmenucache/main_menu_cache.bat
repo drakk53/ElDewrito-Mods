@@ -47,13 +47,9 @@ ECHO What Main Menu Would You Like to Port?
 ECHO 1.Halo 3 Main Menu
 ECHO 2.Halo 3 Mythic Main Menu
 ECHO 3.Halo 3 ODST Main Menu
-ECHO 4.Halo CEA Main Menu (Non-Fucntional)
-ECHO 5.Custom MCC Main Menu (Non-Functional)
 ECHO.
 
-CHOICE /C 12345 /M "Enter your choice:"
-IF ERRORLEVEL 5 GOTO MCC
-IF ERRORLEVEL 4 GOTO CEAMP
+CHOICE /C 123 /M "Enter your choice:"
 IF ERRORLEVEL 3 GOTO H3ODST
 IF ERRORLEVEL 2 GOTO H3M
 IF ERRORLEVEL 1 GOTO H3
@@ -83,20 +79,6 @@ Type main_menu_cache_script_4_H3ODST.cmd | TagTool.exe ../MM/tags.dat
 ECHO Applying Patches....
 cd ../TT1
 Type main_menu_cache_script_5_H3ODST.cmd | TagTool.exe ../MM/tags.dat
-GOTO END
-
-:CEAMP
-ECHO Porting Halo CEA Main Menu....
-cd ../../TT2
-Type main_menu_cache_script_4_CEAMP.cmd | TagTool.exe ../MM/tags.dat
-ECHO Applying Patches....
-GOTO END
-
-:MCC
-ECHO Porting Custom MCC Main Menu....
-cd ../../TT2
-Type main_menu_cache_script_4_MCC.cmd | TagTool.exe ../MM/tags.dat
-ECHO Applying Patches....
 GOTO END
 
 :END
