@@ -610,4 +610,48 @@ edittag ui\halox\pregame_lobby\pregame_lobby_theater.gui_screen_widget_definitio
 setfield scriptindex 53
 savetagchanges
 exit
+edittag ui\halox\main_menu\main_menu_list.gui_datasource_definition
+setfield elements[0].stringidvalues[0].value matchmaking
+setfield elements[1].stringidvalues[0].value campaign
+setfield elements[2].stringidvalues[0].value multiplayer
+setfield elements[3].stringidvalues[0].value mapeditor
+setfield elements[4].stringidvalues[0].value theater
+setfield elements[5].stringidvalues[0].value exit
+savetagchanges
+exit
+edittag ui\halox\start_menu\panes\hq\sidebar_items.gui_datasource_definition
+removeblockelements elements 0
+removeblockelements elements 3
+removeblockelements elements 3
+savetagchanges
+exit
+edittag ui\halox\start_menu\panes\settings\sidebar_items.gui_datasource_definition
+addblockelements elements 1
+editblock elements[1]
+addblockelements stringidvalues 1
+editblock stringidvalues[0]
+setfield name name
+setfield value appearance
+exit
+exit
+addblockelements elements 1
+editblock elements[2]
+addblockelements stringidvalues 1
+editblock stringidvalues[0]
+setfield name name
+setfield value display_settings
+exit
+exit
+savetagchanges
+exit
+edittag ui\halox\main_menu\strings.unic
+setstring english multiplayer "CUSTOM GAMES"
+setstring english mapeditor "FORGE"
+savetagchanges
+exit
+edittag ui\halox\start_menu\panes\settings\strings.unic
+setstring english appearance "CUSTOMIZATION"
+setstring english display_settings "SCREEN SETTINGS"
+savetagchanges
+exit
 quit
