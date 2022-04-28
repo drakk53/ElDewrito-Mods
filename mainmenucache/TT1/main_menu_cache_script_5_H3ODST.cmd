@@ -36,7 +36,7 @@ porttag replace single ui\chud\smg.chud_definition
 porttag replace single ui\chud\sniper_rifle.chud_definition
 exit
 opencachefile "../H3ODSTMaps/h100.map"
-porttag ui\chud\odst_recon.chud_definition
+porttag replace single ui\chud\odst_recon.chud_definition
 exit
 opencachefile "../H3MythicMaps/sandbox.map"
 porttag replace single ui\chud\spartan_laser.chud_definition
