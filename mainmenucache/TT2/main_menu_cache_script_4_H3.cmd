@@ -611,7 +611,7 @@ setfield scriptindex 53
 savetagchanges
 exit
 edittag ui\halox\main_menu\main_menu_list.gui_datasource_definition
-setfield elements[0].stringidvalues[0].value matchmaking
+setfield elements[0].stringidvalues[0].value server_browser
 setfield elements[1].stringidvalues[0].value campaign
 setfield elements[2].stringidvalues[0].value multiplayer
 setfield elements[3].stringidvalues[0].value mapeditor
@@ -634,14 +634,6 @@ setfield name name
 setfield value appearance
 exit
 exit
-addblockelements elements 1
-editblock elements[2]
-addblockelements stringidvalues 1
-editblock stringidvalues[0]
-setfield name name
-setfield value display_settings
-exit
-exit
 savetagchanges
 exit
 edittag ui\halox\main_menu\strings.unic
@@ -651,7 +643,6 @@ savetagchanges
 exit
 edittag ui\halox\start_menu\panes\settings\strings.unic
 setstring english appearance "CUSTOMIZATION"
-setstring english display_settings "SCREEN SETTINGS"
 savetagchanges
 exit
 quit
