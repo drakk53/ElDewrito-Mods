@@ -54,6 +54,7 @@ porttag ui\chud\e_jammer.chud_definition
 porttag ui\chud\e_powerdrain.chud_definition
 porttag ui\chud\e_regen.chud_definition
 porttag ui\chud\e_tripmine.chud_definition
+porttag ui\chud\elite.chud_definition
 porttag ui\chud\excavator.chud_definition
 porttag ui\chud\flamethrower.chud_definition
 porttag ui\chud\fuel_rod_cannon.chud_definition
@@ -72,11 +73,7 @@ porttag ui\chud\sentinel_beam.chud_definition
 porttag ui\chud\shotgun.chud_definition
 porttag ui\chud\smg.chud_definition
 porttag ui\chud\sniper_rifle.chud_definition
-exit
-opencachefile "../H3ODSTMaps/h100.map"
-porttag ui\chud\odst_recon.chud_definition
-exit
-opencachefile "../H3MythicMaps/sandbox.map"
+porttag ui\chud\spartan.chud_definition
 porttag ui\chud\spartan_laser.chud_definition
 porttag ui\chud\spike_rifle.chud_definition
 porttag ui\chud\sword.chud_definition
@@ -104,15 +101,24 @@ porttag ui\chud\e_autoturret.chud_definition
 porttag ui\chud\e_invincibility.chud_definition
 porttag ui\chud\e_invisibility.chud_definition
 exit
-opencachefile "../H3ODSTMaps/h100.map"
-porttag objects\characters\odst_recon\fp\fp.mode
-porttag objects\characters\odst_recon\fp_body\fp_body.mode
-porttag objects\characters\odst_recon\odst_recon.bipd
-porttag objects\characters\odst_oni_op\fp\fp.mode
-porttag objects\characters\odst_oni_op\body\body.mode
-porttag objects\characters\odst_oni_op\odst_oni_op_player.bipd
+opencachefile "../H3Maps/100_citadel.map"
+porttag objects\characters\dervish\fp\fp.mode
+porttag objects\characters\dervish\fp_body\fp_body.mode
+porttag objects\characters\dervish\dervish.bipd
+porttag objects\characters\elite\fp_arms\fp_arms.mode
+porttag objects\characters\elite\fp_body\fp_body.mode
+porttag objects\characters\elite\elite_sp.bipd
+porttag objects\characters\masterchief\fp\fp.mode
+porttag objects\characters\masterchief\fp_body\fp_body.mode
+porttag objects\characters\masterchief\masterchief.bipd
 exit
 opencachefile "../H3MythicMaps/sandbox.map"
+porttag objects\characters\elite\mp_elite\fp\fp.mode
+porttag objects\characters\elite\mp_elite\fp_body\fp_body.mode
+porttag objects\characters\elite\mp_elite\mp_elite.bipd
+porttag objects\characters\masterchief\mp_masterchief\fp\fp.mode
+porttag objects\characters\masterchief\mp_masterchief\fp_body\fp_body.mode
+porttag objects\characters\masterchief\mp_masterchief\mp_masterchief.bipd
 porttag objects\characters\monitor\monitor_editor.bipd
 exit
 opencachefile "../H3MythicMaps/sandbox.map"
@@ -183,35 +189,76 @@ setfield grenades[2].projectile objects\weapons\grenade\claymore_grenade\claymor
 setfield grenades[3].equipment objects\weapons\grenade\firebomb_grenade\firebomb_grenade.eqip
 setfield grenades[3].projectile objects\weapons\grenade\firebomb_grenade\projectiles\firebomb_grenade.proj
 setfield interfacetags[0].singleplayeruiglobals ui\single_player.wgtz
-setfield playerrepresentation[0].firstpersonhands objects\characters\odst_oni_op\fp\fp.mode
-setfield playerrepresentation[0].firstpersonbody objects\characters\odst_oni_op\body\body.mode
-setfield playerrepresentation[0].thirdpersonunit objects\characters\odst_oni_op\odst_oni_op_player.bipd
+setfield playerrepresentation[0].firstpersonhands objects\characters\masterchief\fp\fp.mode
+setfield playerrepresentation[0].firstpersonbody objects\characters\masterchief\fp_body\fp_body.mode
+setfield playerrepresentation[0].thirdpersonunit objects\characters\masterchief\masterchief.bipd
 setfield playerrepresentation[0].binocularszoominsound sound\game_sfx\ui\binoculars\binocs_in_click.snd!
 setfield playerrepresentation[0].binocularszoomoutsound sound\game_sfx\ui\binoculars\binocs_out_click.snd!
-setfield playerrepresentation[1].firstpersonhands objects\characters\odst_recon\fp\fp.mode 
-setfield playerrepresentation[1].firstpersonbody objects\characters\odst_recon\fp_body\fp_body.mode
-setfield playerrepresentation[1].thirdpersonunit objects\characters\odst_recon\odst_recon.bipd
+setfield playerrepresentation[1].firstpersonhands objects\characters\dervish\fp\fp.mode
+setfield playerrepresentation[1].firstpersonbody objects\characters\dervish\fp_body\fp_body.mode
+setfield playerrepresentation[1].thirdpersonunit objects\characters\dervish\dervish.bipd
 setfield playerrepresentation[1].binocularszoominsound sound\game_sfx\ui\binoculars\binocs_in_click.snd!
 setfield playerrepresentation[1].binocularszoomoutsound sound\game_sfx\ui\binoculars\binocs_out_click.snd!
-setfield playerrepresentation[2].firstpersonhands objects\characters\odst_oni_op\fp\fp.mode
-setfield playerrepresentation[2].firstpersonbody objects\characters\odst_oni_op\body\body.mode
-setfield playerrepresentation[2].thirdpersonunit objects\characters\odst_oni_op\odst_oni_op_player.bipd
+setfield playerrepresentation[2].firstpersonhands objects\characters\masterchief\mp_masterchief\fp\fp.mode
+setfield playerrepresentation[2].firstpersonbody objects\characters\masterchief\mp_masterchief\fp_body\fp_body.mode
+setfield playerrepresentation[2].thirdpersonunit objects\characters\masterchief\mp_masterchief\mp_masterchief.bipd
 setfield playerrepresentation[2].binocularszoominsound sound\game_sfx\ui\binoculars\binocs_in_click.snd!
 setfield playerrepresentation[2].binocularszoomoutsound sound\game_sfx\ui\binoculars\binocs_out_click.snd!
-setfield playerrepresentation[3].firstpersonhands objects\characters\odst_recon\fp\fp.mode 
-setfield playerrepresentation[3].firstpersonbody objects\characters\odst_recon\fp_body\fp_body.mode
-setfield playerrepresentation[3].thirdpersonunit objects\characters\odst_recon\odst_recon.bipd
+setfield playerrepresentation[3].firstpersonhands objects\characters\elite\mp_elite\fp\fp.mode
+setfield playerrepresentation[3].firstpersonbody objects\characters\elite\mp_elite\fp_body\fp_body.mode
+setfield playerrepresentation[3].thirdpersonunit objects\characters\elite\mp_elite\mp_elite.bipd
 setfield playerrepresentation[3].binocularszoominsound sound\game_sfx\ui\binoculars\binocs_in_click.snd!
 setfield playerrepresentation[3].binocularszoomoutsound sound\game_sfx\ui\binoculars\binocs_out_click.snd!
-setfield playerrepresentation[4].firstpersonhands objects\characters\odst_recon\fp\fp.mode 
-setfield playerrepresentation[4].firstpersonbody objects\characters\odst_recon\fp_body\fp_body.mode
-setfield playerrepresentation[4].thirdpersonunit objects\characters\odst_recon\odst_recon.bipd
+setfield playerrepresentation[4].firstpersonhands objects\characters\elite\fp_arms\fp_arms.mode
+setfield playerrepresentation[4].firstpersonbody objects\characters\elite\fp_body\fp_body.mode
+setfield playerrepresentation[4].thirdpersonunit objects\characters\elite\elite_sp.bipd
 setfield playerrepresentation[4].binocularszoominsound sound\game_sfx\ui\binoculars\binocs_in_click.snd!
 setfield playerrepresentation[4].binocularszoomoutsound sound\game_sfx\ui\binoculars\binocs_out_click.snd!
 setfield playerrepresentation[5].thirdpersonunit objects\characters\monitor\monitor_editor.bipd
 savetagchanges
 exit
 edittag multiplayer\multiplayer_globals.multiplayer_globals
+setfield universal[0].spartanarmorcustomization[0].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[8].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_odst.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[9].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_markv.scen
+setfield universal[0].spartanarmorcustomization[0].permutations[10].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_rogue.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[8].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_odst.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[9].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_markv.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[10].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_rogue.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[11].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_bungie.scen
+setfield universal[0].spartanarmorcustomization[1].permutations[12].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_katana.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
+setfield universal[0].spartanarmorcustomization[2].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[1].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_cobra.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[2].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_intruder.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[3].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ninja.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[4].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_regulator.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[5].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_ryu.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[6].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_marathon.scen
+setfield universal[0].spartanarmorcustomization[3].permutations[7].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\mp_scout.scen
+setfield universal[0].spartanarmorcustomization[4].permutations[0].thirdpersonarmorobject objects\characters\masterchief\mp_masterchief\armor\base.scen
 setfield universal[0].equipment[0].object null
 setfield universal[0].equipment[1].object objects\equipment\jammer_equipment\jammer_equipment.eqip
 setfield universal[0].equipment[2].object objects\equipment\powerdrain_equipment\powerdrain_equipment.eqip

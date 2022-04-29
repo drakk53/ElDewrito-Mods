@@ -16,6 +16,7 @@ porttag replace single ui\chud\e_jammer.chud_definition
 porttag replace single ui\chud\e_powerdrain.chud_definition
 porttag replace single ui\chud\e_regen.chud_definition
 porttag replace single ui\chud\e_tripmine.chud_definition
+porttag replace single ui\chud\elite.chud_definition
 porttag replace single ui\chud\excavator.chud_definition
 porttag replace single ui\chud\flamethrower.chud_definition
 porttag replace single ui\chud\fuel_rod_cannon.chud_definition
@@ -34,11 +35,7 @@ porttag replace single ui\chud\sentinel_beam.chud_definition
 porttag replace single ui\chud\shotgun.chud_definition
 porttag replace single ui\chud\smg.chud_definition
 porttag replace single ui\chud\sniper_rifle.chud_definition
-exit
-opencachefile "../H3ODSTMaps/h100.map"
-porttag replace single ui\chud\odst_recon.chud_definition
-exit
-opencachefile "../H3MythicMaps/sandbox.map"
+porttag replace single ui\chud\spartan.chud_definition
 porttag replace single ui\chud\spartan_laser.chud_definition
 porttag replace single ui\chud\spike_rifle.chud_definition
 porttag replace single ui\chud\sword.chud_definition
@@ -66,7 +63,7 @@ porttag replace single ui\chud\e_autoturret.chud_definition
 porttag replace single ui\chud\e_invincibility.chud_definition
 porttag replace single ui\chud\e_invisibility.chud_definition
 exit
-opencachefile "../H3ODSTMaps/h100.map"
+opencachefile "../H3Maps/100_citadel.map"
 porttag replace single ui\chud\globals.chud_globals_definition
 savetagnames
 quit
